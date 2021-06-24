@@ -9,7 +9,7 @@ public class PlayerController : Singleton<PlayerController>
     public float moveSpeed;
     private Vector2 m_Move;
 
-
+    private Quaternion initialRot;
 
 
     public int health = 3;
@@ -17,6 +17,11 @@ public class PlayerController : Singleton<PlayerController>
     public void OnMove(InputAction.CallbackContext context)
     {
         m_Move = context.ReadValue<Vector2>();
+    }
+
+    private void Start()
+    {
+        initialRot = transform.rotation;
     }
 
     public void Update()
@@ -32,9 +37,18 @@ public class PlayerController : Singleton<PlayerController>
         var scaledMoveSpeed = moveSpeed * Time.deltaTime;
         // For simplicity's sake, we just keep movement in a single plane here. Rotate
         // direction according to world Y rotation of player.
-        var move = Quaternion.Euler(0, transform.eulerAngles.y, 0) * new Vector3(direction.x, 0, direction.y);
-        transform.position += move * scaledMoveSpeed;
+        //var move = Quaternion.Euler(0, transform.eulerAngles.y, 0) * new Vector3(direction.x, 0, direction.y);
+        transform.position += new Vector3(direction.x, 0, direction.y) * scaledMoveSpeed;
+        //float angle = Vector3.SignedAngle(new Vector3(direction.x, 0, direction.y), transform.forward, Vector3.up);
 
+
+        //transform.right = direction;
+
+        //transform.rotation *= Quaternion.Euler(0, angle, 0);
+
+        Quaternion q = new Quaternion();
+        q.eulerAngles = new Vector3(0, Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg, 0);
+        transform.rotation = q;
     }
 
     private void DodgeRoll()
