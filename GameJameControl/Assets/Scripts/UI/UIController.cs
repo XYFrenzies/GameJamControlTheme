@@ -19,7 +19,6 @@ public class UIController : MonoBehaviour
             m_playerHealth.gameObject.SetActive(false);
         }
     }
-
     // Update is called once per frame
     private void Update()
     {
