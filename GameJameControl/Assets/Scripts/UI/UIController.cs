@@ -4,8 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 public class UIController : MonoBehaviour
 {
-    [SerializeField] private Slider m_playerHealth;
-    [SerializeField] private Slider m_towerHealth;
+    [SerializeField] private Slider m_playerHealth = null;
+    [SerializeField] private Slider m_towerHealth = null;
     // Start is called before the first frame update
     private void Awake()
     {
@@ -19,7 +19,6 @@ public class UIController : MonoBehaviour
             m_playerHealth.gameObject.SetActive(false);
         }
     }
-
     // Update is called once per frame
     private void Update()
     {
