@@ -9,7 +9,7 @@ public class PlayerController : Singleton<PlayerController>
     public float moveSpeed;
     public float dodgeSpeed;
     private Vector2 m_Move;
-    public Rigidbody rb;
+    private Rigidbody rb;
 
    // private Quaternion initialRot;
 
