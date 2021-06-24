@@ -7,10 +7,11 @@ using System;
 public class PlayerController : Singleton<PlayerController>
 {
     public float moveSpeed;
+    public float dodgeSpeed;
     private Vector2 m_Move;
     public Rigidbody rb;
 
-    private Quaternion initialRot;
+   // private Quaternion initialRot;
 
 
     public int health = 3;
@@ -20,15 +21,22 @@ public class PlayerController : Singleton<PlayerController>
         m_Move = context.ReadValue<Vector2>();
     }
 
+    public void OnDodgeRoll(InputAction.CallbackContext context)
+    {
+        DodgeRoll();
+
+    }
+
     private void Start()
     {
-        initialRot = transform.rotation;
+        //initialRot = transform.rotation;
         rb = GetComponent<Rigidbody>();
     }
 
     public void Update()
     {
         Move(m_Move);
+        //DodgeRoll();
     }
 
     private void Move(Vector2 direction)
@@ -55,6 +63,7 @@ public class PlayerController : Singleton<PlayerController>
 
     private void DodgeRoll()
     {
-
+        //moveSpeed *= dodgeSpeed;
+        Debug.Log("dodge");
     }
 }
