@@ -7,16 +7,17 @@ using System;
 public class PlayerController : Singleton<PlayerController>
 {
     public float moveSpeed;
-    private float initialMoveSpeed;
     public float maxSpeed;
-    public float dodgeSpeed;
+
     private Vector2 m_Move;
     private Rigidbody rb;
-    public bool canDodge;
-    public float dodgeTimer = 0f;
-    public float dodgeTime = 3f;
+    private bool canDodge = true;
 
-    // private Quaternion initialRot;
+    private float dodgeCooldown = 1f;
+    public float actCooldown;
+
+    public float rollAmount = 2000f;
+
 
 
     public int health = 3;
@@ -39,23 +40,25 @@ public class PlayerController : Singleton<PlayerController>
 
     private void Start()
     {
-        initialMoveSpeed = moveSpeed;
         rb = GetComponent<Rigidbody>();
+        canDodge = true;
     }
 
     public void Update()
     {
         Move(m_Move);
-        dodgeTimer += Time.deltaTime;
-        if (dodgeTimer >= dodgeTime)
+
+        if (actCooldown <= 0)
         {
             canDodge = true;
 
         }
         else
         {
-            initialMoveSpeed = moveSpeed;
+
             canDodge = false;
+
+            actCooldown -= Time.deltaTime;
         }
     }
 
@@ -63,21 +66,15 @@ public class PlayerController : Singleton<PlayerController>
     {
         if (direction.sqrMagnitude < 0.01)
             return;
-        var scaledMoveSpeed = initialMoveSpeed * Time.deltaTime;
-        // For simplicity's sake, we just keep movement in a single plane here. Rotate
-        // direction according to world Y rotation of player.
-        //var move = Quaternion.Euler(0, transform.eulerAngles.y, 0) * new Vector3(direction.x, 0, direction.y);
-        //transform.position += new Vector3(direction.x, 0, direction.y) * scaledMoveSpeed;
-        //float angle = Vector3.SignedAngle(new Vector3(direction.x, 0, direction.y), transform.forward, Vector3.up);
+        var scaledMoveSpeed = moveSpeed * Time.deltaTime;
+
         if (rb.velocity.magnitude > maxSpeed)
         {
             rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxSpeed);
         }
         Vector3 force = new Vector3(direction.x, 0, direction.y) * scaledMoveSpeed;
         rb.AddForce(force);
-        //transform.right = direction;
 
-        //transform.rotation *= Quaternion.Euler(0, angle, 0);
 
         Quaternion q = new Quaternion();
         q.eulerAngles = new Vector3(0, Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg, 0);
@@ -88,9 +85,10 @@ public class PlayerController : Singleton<PlayerController>
     {
         if (canDodge)
         {
-            initialMoveSpeed = dodgeSpeed;
-            Debug.Log(rb.velocity);
-            dodgeTimer = 0f;
+            actCooldown = dodgeCooldown;
+
+            rb.AddForce(transform.forward * rollAmount, ForceMode.Force);
+
         }
     }
 }
