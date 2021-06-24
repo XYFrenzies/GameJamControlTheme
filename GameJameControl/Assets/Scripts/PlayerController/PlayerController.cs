@@ -86,12 +86,22 @@ public class PlayerController : Singleton<PlayerController>
         Quaternion q = new Quaternion();
         q.eulerAngles = new Vector3(0, Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg, 0);
         transform.rotation = q;
+
+        if (direction.x == -1)
+            Debug.Log("Left");
+        if (direction.x == 1)
+            Debug.Log("Right");
+        if (direction.y == 1)
+            Debug.Log("Up");
+        if (direction.y == -1)
+            Debug.Log("Down");
     }
 
     private void DodgeRoll()
     {
         if (canDodge)
         {
+            Debug.Log("Dodge");
             actCooldown = dodgeCooldown;
             Invincible(invincibleDuration);
             rb.AddForce(transform.forward * rollAmount, ForceMode.Force);
