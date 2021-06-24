@@ -6,20 +6,24 @@ using UnityEngine;
 /// </summary>
 public class TowerController : Singleton<TowerController>
 {
-    [SerializeField] private float timeBetweenHits = 2.0f;
-    private float dt = 0.0f;
     public int health = 3;
     private void Update()
     {
-        dt += Time.deltaTime;
         if (health <= 0)
         {
             //Do Something
         }
-        else if (EnemyController.Instance.isHitTower && dt >= timeBetweenHits)
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.CompareTag("Enemy"))
         {
-            dt = 0;
-            health--;
+            EnemyController control = collision.gameObject.GetComponent<EnemyController>();
+            if (control.dt > control.timeBetweenHits)
+            {
+                control.dt = 0;
+                health--;
+            }
         }
     }
 }

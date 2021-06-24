@@ -6,11 +6,14 @@ using UnityEngine;
 /// </summary>
 public class EnemyController : Singleton<EnemyController>
 {
+
     [SerializeField] private float m_speed = 10.0f;
     [SerializeField] private GameObject m_player;
+    public float timeBetweenHits = 2.0f;
     public float playerDamage = 0.1f;
     public float towerDamage = 0.1f;
     private GameObject m_tower;
+    [HideInInspector]public float dt = 0.0f;
     [HideInInspector] public bool isHitPlayer = false;
     [HideInInspector] public bool isHitTower = false;
     [HideInInspector] public bool isHitSafeZone = false;
@@ -22,6 +25,10 @@ public class EnemyController : Singleton<EnemyController>
         m_tower = GameObject.FindGameObjectWithTag("Tower");
         if (m_tower == null)
             m_tower = FindObjectOfType<TowerController>().gameObject;
+    }
+    void Update() 
+    {
+        dt += Time.deltaTime;
     }
     // Update is called once per frame
     void FixedUpdate()

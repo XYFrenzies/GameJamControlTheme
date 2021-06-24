@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class Score : Singleton<Score>
 {
+    [SerializeField] private int scoreAmount = 1;
     private int count = 0;
     [SerializeField] private Text m_scoreText = null;
     [SerializeField] private string textBeforeCountNumber = "";
@@ -12,9 +13,9 @@ public class Score : Singleton<Score>
     {
         m_scoreText.text = textBeforeCountNumber + count.ToString();
     }
-    public void IncreaseCount(int amount) 
+    public void IncreaseCount() 
     {
-        count += amount;
+        count += scoreAmount;
     }
     public int GetAmount() 
     {

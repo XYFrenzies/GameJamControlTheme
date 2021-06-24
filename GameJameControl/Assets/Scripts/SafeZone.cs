@@ -23,6 +23,7 @@ public class SafeZone : MonoBehaviour
                 //Makes an effect for when the karrens die.
                 DeleteGameObjects();
                 newKarrenInArea = false;
+                Score.Instance.IncreaseCount();
             }
         }
     }
