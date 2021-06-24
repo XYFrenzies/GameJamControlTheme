@@ -1,0 +1,898 @@
+fileFormatVersion: 2
+guid: d650da3aec049ca449a87ee5215d295c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5043029590343164009
+    second: SPR_KarenSlow_Down3q_0
+  - first:
+      213: 6525873356402666559
+    second: SPR_KarenSlow_Down3q_1
+  - first:
+      213: -1348825745166875119
+    second: SPR_KarenSlow_Down3q_2
+  - first:
+      213: 356814350426623374
+    second: SPR_KarenSlow_Down3q_3
+  - first:
+      213: -8382371210872695903
+    second: SPR_KarenSlow_Down3q_4
+  - first:
+      213: -5712772204684290801
+    second: SPR_KarenSlow_Down3q_5
+  - first:
+      213: -5404450590294738893
+    second: SPR_KarenSlow_Down3q_6
+  - first:
+      213: -6371514340768090042
+    second: SPR_KarenSlow_Down3q_7
+  - first:
+      213: -2200393025996145947
+    second: SPR_KarenSlow_Down3q_8
+  - first:
+      213: 721881597683624636
+    second: SPR_KarenSlow_Down3q_9
+  - first:
+      213: 1982494155824237056
+    second: SPR_KarenSlow_Down3q_10
+  - first:
+      213: -2973831739696489623
+    second: SPR_KarenSlow_Down3q_11
+  - first:
+      213: 5354394025559002509
+    second: SPR_KarenSlow_Down3q_12
+  - first:
+      213: 4753710546532260419
+    second: SPR_KarenSlow_Down3q_13
+  - first:
+      213: -6677724559185531014
+    second: SPR_KarenSlow_Down3q_14
+  - first:
+      213: -1995574326951563493
+    second: SPR_KarenSlow_Down3q_15
+  - first:
+      213: 257866689350043741
+    second: SPR_KarenSlow_Down3q_16
+  - first:
+      213: 6174087192463604577
+    second: SPR_KarenSlow_Down3q_17
+  - first:
+      213: -3988100459174980607
+    second: SPR_KarenSlow_Down3q_18
+  - first:
+      213: -5630771829132080573
+    second: SPR_KarenSlow_Down3q_19
+  - first:
+      213: 3125400373704142218
+    second: SPR_KarenSlow_Down3q_20
+  - first:
+      213: 5124742319550355631
+    second: SPR_KarenSlow_Down3q_21
+  - first:
+      213: 8077479055867229243
+    second: SPR_KarenSlow_Down3q_22
+  - first:
+      213: 2874223457179265911
+    second: SPR_KarenSlow_Down3q_23
+  - first:
+      213: 441114862105704604
+    second: SPR_KarenSlow_Down3q_24
+  - first:
+      213: 3002437668986151471
+    second: SPR_KarenSlow_Down3q_25
+  - first:
+      213: 7969970406606499635
+    second: SPR_KarenSlow_Down3q_26
+  - first:
+      213: 1378996710714197275
+    second: SPR_KarenSlow_Down3q_27
+  - first:
+      213: 6129232440785582528
+    second: SPR_KarenSlow_Down3q_28
+  - first:
+      213: -8492832117928268033
+    second: SPR_KarenSlow_Down3q_29
+  - first:
+      213: 191113255524763051
+    second: SPR_KarenSlow_Down3q_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_0
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1318
+        width: 107
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960203c71b07cf540800000000000000
+      internalID: 5043029590343164009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_1
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1318
+        width: 105
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c2199fd3f809a50800000000000000
+      internalID: 6525873356402666559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_2
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1319
+        width: 100
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1164d639122084de0800000000000000
+      internalID: -1348825745166875119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_3
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1320
+        width: 101
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8dc0ffd2c8a3f400800000000000000
+      internalID: 356814350426623374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_4
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1323
+        width: 101
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3d870abc5dbab80800000000000000
+      internalID: -8382371210872695903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_5
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1320
+        width: 101
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05511982f728b0b0800000000000000
+      internalID: -5712772204684290801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_6
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1070
+        width: 100
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338f45772d88ff4b0800000000000000
+      internalID: -5404450590294738893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_7
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1075
+        width: 101
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648f53df675d397a0800000000000000
+      internalID: -6371514340768090042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_8
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1079
+        width: 100
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eab0477332a671e0800000000000000
+      internalID: -2200393025996145947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_9
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1083
+        width: 101
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbae2d70d73a40a00800000000000000
+      internalID: 721881597683624636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_10
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1086
+        width: 101
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a01375eeb338b10800000000000000
+      internalID: 1982494155824237056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_11
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1061
+        width: 101
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bdb9de9c3dab6d0800000000000000
+      internalID: -2973831739696489623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_12
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 828
+        width: 101
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d0be85ff0ae4a40800000000000000
+      internalID: 5354394025559002509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_13
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 827
+        width: 101
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a551b4e8298f140800000000000000
+      internalID: 4753710546532260419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_14
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 826
+        width: 101
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f28ddb4e4f353a0800000000000000
+      internalID: -6677724559185531014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_15
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 824
+        width: 102
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1fa92ff8bb4e44e0800000000000000
+      internalID: -1995574326951563493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_16
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 824
+        width: 105
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d588d124360249300800000000000000
+      internalID: 257866689350043741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_17
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 802
+        width: 101
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16bf41ff693cea550800000000000000
+      internalID: 6174087192463604577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_18
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 566
+        width: 106
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1049d4223cb67a8c0800000000000000
+      internalID: -3988100459174980607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_19
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 566
+        width: 106
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a4e41cada7bd1b0800000000000000
+      internalID: -5630771829132080573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_20
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 566
+        width: 104
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d228fa417af5b20800000000000000
+      internalID: 3125400373704142218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_21
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 567
+        width: 101
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8d532dcfdbe1740800000000000000
+      internalID: 5124742319550355631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_22
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 567
+        width: 101
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34bf9da768f81070800000000000000
+      internalID: 8077479055867229243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_23
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 544
+        width: 104
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77be34a810b43e720800000000000000
+      internalID: 2874223457179265911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_24
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 303
+        width: 101
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98b4f441a72f1600800000000000000
+      internalID: 441114862105704604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_25
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 298
+        width: 101
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22eb20072dcaa920800000000000000
+      internalID: 3002437668986151471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_26
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 295
+        width: 100
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fe72cabd50b9e60800000000000000
+      internalID: 7969970406606499635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_27
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 293
+        width: 101
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b154d80c33e232310800000000000000
+      internalID: 1378996710714197275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_28
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 290
+        width: 101
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c933da4e686f0550800000000000000
+      internalID: 6129232440785582528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_29
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 286
+        width: 106
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe6bd98f26632a80800000000000000
+      internalID: -8492832117928268033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenSlow_Down3q_30
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 28
+        width: 107
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba50c6b4e78f6a200800000000000000
+      internalID: 191113255524763051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
