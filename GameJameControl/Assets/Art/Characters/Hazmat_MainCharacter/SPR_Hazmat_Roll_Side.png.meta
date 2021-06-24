@@ -1,12 +1,138 @@
 fileFormatVersion: 2
 guid: 47f4b3452585ed14d88f9dd1d6a4863f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3749751162684005912
+    second: SPR_Hazmat_Roll_Side_0
+  - first:
+      213: -8413919285483770442
+    second: SPR_Hazmat_Roll_Side_1
+  - first:
+      213: -6907802408570613997
+    second: SPR_Hazmat_Roll_Side_2
+  - first:
+      213: 6430060449628247878
+    second: SPR_Hazmat_Roll_Side_3
+  - first:
+      213: 3050503661820533875
+    second: SPR_Hazmat_Roll_Side_4
+  - first:
+      213: 4613230696363031122
+    second: SPR_Hazmat_Roll_Side_5
+  - first:
+      213: 2950101609321130305
+    second: SPR_Hazmat_Roll_Side_6
+  - first:
+      213: -2355920770325776828
+    second: SPR_Hazmat_Roll_Side_7
+  - first:
+      213: -6432748732881591475
+    second: SPR_Hazmat_Roll_Side_8
+  - first:
+      213: 254561775392599874
+    second: SPR_Hazmat_Roll_Side_9
+  - first:
+      213: 5617925513727322469
+    second: SPR_Hazmat_Roll_Side_10
+  - first:
+      213: -2758742584033437856
+    second: SPR_Hazmat_Roll_Side_11
+  - first:
+      213: 4568648274644410374
+    second: SPR_Hazmat_Roll_Side_12
+  - first:
+      213: 72980667817196522
+    second: SPR_Hazmat_Roll_Side_13
+  - first:
+      213: -7209127103274177027
+    second: SPR_Hazmat_Roll_Side_14
+  - first:
+      213: 6947885437209175928
+    second: SPR_Hazmat_Roll_Side_15
+  - first:
+      213: -6116037150667629183
+    second: SPR_Hazmat_Roll_Side_16
+  - first:
+      213: -4021091550322313992
+    second: SPR_Hazmat_Roll_Side_17
+  - first:
+      213: 2830295831934847732
+    second: SPR_Hazmat_Roll_Side_18
+  - first:
+      213: 4360060068281736163
+    second: SPR_Hazmat_Roll_Side_19
+  - first:
+      213: -2213723937694440306
+    second: SPR_Hazmat_Roll_Side_20
+  - first:
+      213: 6381451690592972017
+    second: SPR_Hazmat_Roll_Side_21
+  - first:
+      213: -7773165260520938491
+    second: SPR_Hazmat_Roll_Side_22
+  - first:
+      213: -7239900454678105448
+    second: SPR_Hazmat_Roll_Side_23
+  - first:
+      213: -5212164535959597355
+    second: SPR_Hazmat_Roll_Side_24
+  - first:
+      213: 5778158373120473867
+    second: SPR_Hazmat_Roll_Side_25
+  - first:
+      213: -9104138658945334587
+    second: SPR_Hazmat_Roll_Side_26
+  - first:
+      213: -7635660956961590648
+    second: SPR_Hazmat_Roll_Side_27
+  - first:
+      213: -2489778312595281585
+    second: SPR_Hazmat_Roll_Side_28
+  - first:
+      213: -562265875302702628
+    second: SPR_Hazmat_Roll_Side_29
+  - first:
+      213: -6320728458203133719
+    second: SPR_Hazmat_Roll_Side_30
+  - first:
+      213: 6593213666792188601
+    second: SPR_Hazmat_Roll_Side_31
+  - first:
+      213: -8268363671093406035
+    second: SPR_Hazmat_Roll_Side_32
+  - first:
+      213: -388726852450923770
+    second: SPR_Hazmat_Roll_Side_33
+  - first:
+      213: 3967926132663944283
+    second: SPR_Hazmat_Roll_Side_34
+  - first:
+      213: 3397182097021901281
+    second: SPR_Hazmat_Roll_Side_35
+  - first:
+      213: 4035587748589067610
+    second: SPR_Hazmat_Roll_Side_36
+  - first:
+      213: 1380574252787322499
+    second: SPR_Hazmat_Roll_Side_37
+  - first:
+      213: -2958416166718778756
+    second: SPR_Hazmat_Roll_Side_38
+  - first:
+      213: 7822285180142634008
+    second: SPR_Hazmat_Roll_Side_39
+  - first:
+      213: -2438675796802277571
+    second: SPR_Hazmat_Roll_Side_40
+  - first:
+      213: -4723098698702901716
+    second: SPR_Hazmat_Roll_Side_41
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -35,13 +161,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -50,9 +176,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -73,13 +199,724 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_0
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1337
+        width: 95
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e53efb0dac90430800000000000000
+      internalID: 3749751162684005912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_1
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1332
+        width: 95
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd6eeb1df0cb3b80800000000000000
+      internalID: -8413919285483770442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_2
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1328
+        width: 92
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f8f8afe4e8220a0800000000000000
+      internalID: -6907802408570613997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_3
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1334
+        width: 90
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647516839e92c3950800000000000000
+      internalID: 6430060449628247878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_4
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 1327
+        width: 83
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c57dc0be0955a20800000000000000
+      internalID: 3050503661820533875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_5
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 1345
+        width: 166
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a75ab50ec750040800000000000000
+      internalID: 4613230696363031122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_6
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1058
+        width: 171
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149e4ea88cdd0f820800000000000000
+      internalID: 2950101609321130305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_7
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1062
+        width: 191
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44674c5aa861e4fd0800000000000000
+      internalID: -2355920770325776828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_8
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1065
+        width: 136
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43af3f0c194ab6a0800000000000000
+      internalID: -6432748732881591475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_9
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1072
+        width: 144
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f2ba30692688300800000000000000
+      internalID: 254561775392599874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_10
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1070
+        width: 150
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569225c5d71e6fd40800000000000000
+      internalID: 5617925513727322469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_11
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1086
+        width: 142
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06791fb7c3af6b9d0800000000000000
+      internalID: -2758742584033437856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_12
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 820
+        width: 156
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600a1e96669176f30800000000000000
+      internalID: 4568648274644410374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_13
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 826
+        width: 155
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebf6bcd787430100800000000000000
+      internalID: 72980667817196522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_14
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 836
+        width: 153
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfda3bc581904fb90800000000000000
+      internalID: -7209127103274177027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_15
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 838
+        width: 152
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87766f06ef8db6060800000000000000
+      internalID: 6947885437209175928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_16
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 833
+        width: 142
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d1d599d987f1ba0800000000000000
+      internalID: -6116037150667629183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_17
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 824
+        width: 122
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4b6b52a863238c0800000000000000
+      internalID: -4021091550322313992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 571
+        width: 129
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4faceb7401b374720800000000000000
+      internalID: 2830295831934847732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_19
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 570
+        width: 96
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb5c41188b028c30800000000000000
+      internalID: 4360060068281736163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_20
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 579
+        width: 114
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84a1f6bec54741e0800000000000000
+      internalID: -2213723937694440306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_21
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 583
+        width: 127
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc2c1190887f8850800000000000000
+      internalID: 6381451690592972017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_22
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 584
+        width: 146
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5042e3a216b202490800000000000000
+      internalID: -7773165260520938491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_23
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 563
+        width: 100
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892f8b525e4b68b90800000000000000
+      internalID: -7239900454678105448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_24
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 343
+        width: 164
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de4d3348fbaaa7b0800000000000000
+      internalID: -5212164535959597355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_25
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 355
+        width: 190
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b7bc52d64203050800000000000000
+      internalID: 5778158373120473867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_26
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 344
+        width: 201
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c289af102a97a180800000000000000
+      internalID: -9104138658945334587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_27
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 343
+        width: 197
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8823cfaa0dea80690800000000000000
+      internalID: -7635660956961590648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_28
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 332
+        width: 231
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49694ce0d7827dd0800000000000000
+      internalID: -2489778312595281585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_29
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 308
+        width: 95
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd122495a2e6238f0800000000000000
+      internalID: -562265875302702628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_Side_30
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 41
+        width: 95
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e88917b4f24848a0800000000000000
+      internalID: -6320728458203133719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e0bc253c6896863469b1e680bb7b74b7
     internalID: 0
     vertices: []
     indices: 
