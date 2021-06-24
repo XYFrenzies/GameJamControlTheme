@@ -8,6 +8,7 @@ public class PlayerController : Singleton<PlayerController>
 {
     public float moveSpeed;
     private Vector2 m_Move;
+    public Rigidbody rb;
 
     private Quaternion initialRot;
 
@@ -22,6 +23,7 @@ public class PlayerController : Singleton<PlayerController>
     private void Start()
     {
         initialRot = transform.rotation;
+        rb = GetComponent<Rigidbody>();
     }
 
     public void Update()
@@ -37,10 +39,11 @@ public class PlayerController : Singleton<PlayerController>
         // For simplicity's sake, we just keep movement in a single plane here. Rotate
         // direction according to world Y rotation of player.
         //var move = Quaternion.Euler(0, transform.eulerAngles.y, 0) * new Vector3(direction.x, 0, direction.y);
-        transform.position += new Vector3(direction.x, 0, direction.y) * scaledMoveSpeed;
+        //transform.position += new Vector3(direction.x, 0, direction.y) * scaledMoveSpeed;
         //float angle = Vector3.SignedAngle(new Vector3(direction.x, 0, direction.y), transform.forward, Vector3.up);
 
-
+        Vector3 force = new Vector3(direction.x, 0, direction.y) * scaledMoveSpeed;
+        rb.AddForce(force);
         //transform.right = direction;
 
         //transform.rotation *= Quaternion.Euler(0, angle, 0);
