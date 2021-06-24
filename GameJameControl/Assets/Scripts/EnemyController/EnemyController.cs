@@ -25,10 +25,10 @@ public class EnemyController : Singleton<EnemyController>
     {
         //If the enemies are in the radius of the player but they are not colliding with the player.
         if (InSearchArea.Instance.isInRadius && !isHitPlayer)
-            Vector3.MoveTowards(gameObject.transform.position, m_player.transform.position, m_speed);
+            gameObject.transform.position = Vector3.MoveTowards(gameObject.transform.position, m_player.transform.position, m_speed);
         //If the tower is not within the range of the enemies.
         else if (!isHitTower)
-            Vector3.MoveTowards(gameObject.transform.position, m_tower.transform.position, m_speed);
+            gameObject.transform.position = Vector3.MoveTowards(gameObject.transform.position, m_tower.transform.position, m_speed);
     }
     //Colliding with tower or player
     private void OnCollisionEnter(Collision collision)
@@ -36,6 +36,7 @@ public class EnemyController : Singleton<EnemyController>
         if (collision.collider.CompareTag("Tower"))
         {
             isHitTower = true;
+            gameObject.GetComponent<Rigidbody>().isKinematic = true;
         }
         if (collision.collider.CompareTag("Player"))
         {
@@ -48,6 +49,7 @@ public class EnemyController : Singleton<EnemyController>
         if (collision.collider.CompareTag("Tower"))
         {
             isHitTower = false;
+            gameObject.GetComponent<Rigidbody>().isKinematic = false;
         }
     }
 }
