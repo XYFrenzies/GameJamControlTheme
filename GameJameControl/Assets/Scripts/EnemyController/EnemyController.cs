@@ -23,7 +23,7 @@ public class EnemyController : Singleton<EnemyController>
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (PlayerController.Instance.isInRadius)
+        if (InSearchArea.Instance.isInRadius)
             Vector3.MoveTowards(gameObject.transform.position, m_player.transform.position, m_speed);
         else if (!isHitTower)
             Vector3.MoveTowards(gameObject.transform.position, m_tower.transform.position, m_speed);

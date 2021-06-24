@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class PlayerController : Singleton<PlayerController>
 {
-    [Range(0.1f, 10f)]
-    public float radius = 1;
-    [HideInInspector] public bool isInRadius;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -17,11 +15,14 @@ public class PlayerController : Singleton<PlayerController>
     {
         
     }
-    private void OnTriggerStay(Collider other)
+    //When the player is hit by the enemy
+    private void OnCollisionEnter(Collision collision)
     {
-        if (other.tag == "Enemy")
-        {
-            isInRadius = true;
-        }
+        
+    }
+
+    private void OnCollisionExit(Collision collision)
+    {
+        
     }
 }
