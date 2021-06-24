@@ -6,16 +6,22 @@ using UnityEngine;
 /// </summary>
 public class TowerController : Singleton<TowerController>
 {
-    public int health = 3; 
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private float timeBetweenHits = 2.0f;
+    private float dt = 0.0f;
+    public int health = 3;
+    private void Update()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        dt += Time.deltaTime;
+        if (health <= 0)
+        {
+            //Do Something
+        }
+        else if (EnemyController.Instance.isHitTower && dt >= timeBetweenHits)
+        {
+            dt = 0;
+            health--;
+        }
+        else if (dt > timeBetweenHits)
+            dt = 0;
     }
 }

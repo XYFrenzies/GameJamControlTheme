@@ -10,11 +10,11 @@ public class EnemyController : Singleton<EnemyController>
     [SerializeField] private GameObject m_player;
     private GameObject m_tower;
     [HideInInspector] public bool isHitPlayer = false;
-    private bool isHitTower = false;
+    [HideInInspector] public bool isHitTower = false;
     // Start is called before the first frame update
     void Awake()
     {
-        if(m_player == null)
+        if (m_player == null)
             m_player = GameObject.FindGameObjectWithTag("Player");
         m_tower = GameObject.FindGameObjectWithTag("Tower");
         if (m_tower == null)
