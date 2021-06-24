@@ -8,6 +8,8 @@ public class EnemyController : Singleton<EnemyController>
 {
     [SerializeField] private float m_speed = 10.0f;
     [SerializeField] private GameObject m_player;
+    public float playerDamage = 0.1f;
+    public float towerDamage = 0.1f;
     private GameObject m_tower;
     [HideInInspector] public bool isHitPlayer = false;
     [HideInInspector] public bool isHitTower = false;
@@ -42,6 +44,8 @@ public class EnemyController : Singleton<EnemyController>
         if (collision.collider.CompareTag("Player"))
         {
             isHitPlayer = true;
+            collision.gameObject.GetComponent<PlayerController>().TakeDamage(playerDamage);
+            Debug.Log(collision.gameObject.GetComponent<PlayerController>().health);
         }
     }
     //Leaving the collision area of the tower or player
