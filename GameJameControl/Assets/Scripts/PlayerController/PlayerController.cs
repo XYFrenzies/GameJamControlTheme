@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Interactions;
-
+using System;
 public class PlayerController : Singleton<PlayerController>
 {
     public float moveSpeed;
@@ -21,7 +21,6 @@ public class PlayerController : Singleton<PlayerController>
 
     public void Update()
     {
-
         Move(m_Move);
     }
 
