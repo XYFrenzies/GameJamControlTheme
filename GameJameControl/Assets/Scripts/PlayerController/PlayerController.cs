@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : Singleton<PlayerController>
 {
-    
+    public int health = 3;
     // Start is called before the first frame update
     void Start()
     {
@@ -12,16 +12,6 @@ public class PlayerController : Singleton<PlayerController>
 
     // Update is called once per frame
     void Update()
-    {
-        
-    }
-    //When the player is hit by the enemy
-    private void OnCollisionEnter(Collision collision)
-    {
-        
-    }
-
-    private void OnCollisionExit(Collision collision)
     {
         
     }

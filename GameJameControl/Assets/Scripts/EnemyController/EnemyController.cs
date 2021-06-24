@@ -9,7 +9,7 @@ public class EnemyController : Singleton<EnemyController>
     [SerializeField] private float m_speed = 10.0f;
     [SerializeField] private GameObject m_player;
     private GameObject m_tower;
-    [HideInInspector] public bool isHitPlayer = true;
+    [HideInInspector] public bool isHitPlayer = false;
     private bool isHitTower = false;
     // Start is called before the first frame update
     void Awake()
@@ -23,11 +23,14 @@ public class EnemyController : Singleton<EnemyController>
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (InSearchArea.Instance.isInRadius)
+        //If the enemies are in the radius of the player but they are not colliding with the player.
+        if (InSearchArea.Instance.isInRadius && !isHitPlayer)
             Vector3.MoveTowards(gameObject.transform.position, m_player.transform.position, m_speed);
+        //If the tower is not within the range of the enemies.
         else if (!isHitTower)
             Vector3.MoveTowards(gameObject.transform.position, m_tower.transform.position, m_speed);
     }
+    //Colliding with tower or player
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.collider.CompareTag("Tower"))
@@ -39,6 +42,7 @@ public class EnemyController : Singleton<EnemyController>
             isHitPlayer = true;
         }
     }
+    //Leaving the collision area of the tower or player
     private void OnCollisionExit(Collision collision)
     {
         if (collision.collider.CompareTag("Tower"))
