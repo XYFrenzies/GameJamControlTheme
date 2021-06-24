@@ -1005,6 +1005,10 @@ PrefabInstance:
       propertyPath: m_player
       value: 
       objectReference: {fileID: 958692833}
+    - target: {fileID: 6996029583394325302, guid: 72f2ac857c159eb40bb494a0ddc0796f, type: 3}
+      propertyPath: m_speed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7336392309696221882, guid: 72f2ac857c159eb40bb494a0ddc0796f, type: 3}
       propertyPath: m_Name
       value: Sphere (1)
@@ -1128,6 +1132,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3624755301163922544, guid: ef19ad1f7df6bd441babca1f1a4615b8, type: 3}
+      propertyPath: maxSpeed
+      value: 1000
+      objectReference: {fileID: 0}
     - target: {fileID: 8615399674153458824, guid: ef19ad1f7df6bd441babca1f1a4615b8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

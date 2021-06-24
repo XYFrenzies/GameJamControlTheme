@@ -88,8 +88,7 @@ public class PlayerController : Singleton<PlayerController>
     {
         if (canDodge)
         {
-            moveSpeed = dodgeSpeed;
-            Debug.Log(moveSpeed);
+            Debug.Log(rb.velocity);
             dodgeTimer = 0f;
         }
     }
