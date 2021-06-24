@@ -18,9 +18,11 @@ public class PlayerController : Singleton<PlayerController>
 
     public float rollAmount = 2000f;
 
+    public Animator anim;
 
-
-    public int health = 3;
+    public float health = 3f;
+    public float invincibleAmount;
+    public float invincibleDuration = 0.5f;
     // Start is called before the first frame update
     public void OnMove(InputAction.CallbackContext context)
     {
@@ -47,6 +49,11 @@ public class PlayerController : Singleton<PlayerController>
     public void Update()
     {
         Move(m_Move);
+
+        if (invincibleAmount > 0)
+        {
+            invincibleAmount -= Time.deltaTime;
+        }
 
         if (actCooldown <= 0)
         {
@@ -86,9 +93,29 @@ public class PlayerController : Singleton<PlayerController>
         if (canDodge)
         {
             actCooldown = dodgeCooldown;
-
+            Invincible(invincibleDuration);
             rb.AddForce(transform.forward * rollAmount, ForceMode.Force);
 
         }
+    }
+
+    public void TakeDamage(float amount)
+    {
+        if (invincibleAmount <= 0)
+        {
+            if (health >= 0)
+            {
+                health -= amount;
+            }
+            if (health <= 0)
+                health = 0f;
+            Debug.Log("Take Damage");
+        }
+    }
+
+    public void Invincible(float duration)
+    {
+        invincibleAmount = invincibleDuration;
+        Debug.Log("Invincible");
     }
 }
