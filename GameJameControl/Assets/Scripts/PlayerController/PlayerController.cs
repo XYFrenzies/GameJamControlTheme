@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Interactions;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : Singleton<PlayerController>
 {
     public float moveSpeed;
     private Vector2 m_Move;
@@ -12,6 +12,9 @@ public class PlayerController : MonoBehaviour
 
 
     public void OnMove(InputAction.CallbackContext context)
+    public int health = 3;
+    // Start is called before the first frame update
+    void Start()
     {
         m_Move = context.ReadValue<Vector2>();
     }
