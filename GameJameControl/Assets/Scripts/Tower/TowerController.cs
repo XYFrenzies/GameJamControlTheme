@@ -6,12 +6,14 @@ using UnityEngine;
 /// </summary>
 public class TowerController : Singleton<TowerController>
 {
+    private bool isDead = false;
     public int health = 3;
     private void Update()
     {
         if (health <= 0)
         {
-            //Do Something
+            isDead = true;
+            
         }
     }
     private void OnCollisionEnter(Collision collision)
