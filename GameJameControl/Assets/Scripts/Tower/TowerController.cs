@@ -6,16 +6,14 @@ using UnityEngine;
 /// </summary>
 public class TowerController : Singleton<TowerController>
 {
-    public int health = 3; 
-    // Start is called before the first frame update
-    void Start()
+    public int health = 3;
+    private void Update()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (health <= 0)
+        {
+            //Do Something
+        }
+        else if (EnemyController.Instance.isHitTower)
+            health--;
     }
 }
