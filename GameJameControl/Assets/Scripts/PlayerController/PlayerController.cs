@@ -6,14 +6,14 @@ using UnityEngine.InputSystem.Interactions;
 using System;
 public class PlayerController : Singleton<PlayerController>
 {
-    public float moveSpeed;
+    public float moveForce = 1000f;
     public float maxSpeed;
 
     private Vector2 m_Move;
     private Rigidbody rb;
     private bool canDodge = true;
 
-    private float dodgeCooldown = 1f;
+    public float dodgeCooldown = 1f;
     public float actCooldown;
 
     public float rollAmount = 2000f;
@@ -57,8 +57,8 @@ public class PlayerController : Singleton<PlayerController>
         {
 
             canDodge = false;
-
-            actCooldown -= Time.deltaTime;
+            if (actCooldown > 0)
+                actCooldown -= Time.deltaTime;
         }
     }
 
@@ -66,7 +66,7 @@ public class PlayerController : Singleton<PlayerController>
     {
         if (direction.sqrMagnitude < 0.01)
             return;
-        var scaledMoveSpeed = moveSpeed * Time.deltaTime;
+        var scaledMoveSpeed = moveForce * Time.deltaTime;
 
         if (rb.velocity.magnitude > maxSpeed)
         {
