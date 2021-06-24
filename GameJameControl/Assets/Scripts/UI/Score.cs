@@ -10,7 +10,7 @@ public class Score : Singleton<Score>
     // Update is called once per frame
     void Update()
     {
-        m_scoreText.text = "Score: " + count.ToString();
+        m_scoreText.text = textBeforeCountNumber + count.ToString();
     }
     public void IncreaseCount(int amount) 
     {
