@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
-    [SerializeField] private Transform m_player;
+    [SerializeField] private Transform m_player = null;
     [SerializeField] private float height = 10; 
     // Update is called once per frame
     void LateUpdate()
