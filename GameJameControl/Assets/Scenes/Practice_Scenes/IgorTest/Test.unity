@@ -481,7 +481,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 1000
   maxSpeed: 20
-  dodgeSpeed: 10000
+  dodgeSpeed: 100000
   canDodge: 0
   dodgeTimer: 0
   dodgeTime: 2

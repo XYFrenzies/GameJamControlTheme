@@ -54,7 +54,7 @@ public class PlayerController : Singleton<PlayerController>
         }
         else
         {
-            moveSpeed = initialMoveSpeed;
+            initialMoveSpeed = moveSpeed;
             canDodge = false;
         }
     }
@@ -69,7 +69,7 @@ public class PlayerController : Singleton<PlayerController>
         //var move = Quaternion.Euler(0, transform.eulerAngles.y, 0) * new Vector3(direction.x, 0, direction.y);
         //transform.position += new Vector3(direction.x, 0, direction.y) * scaledMoveSpeed;
         //float angle = Vector3.SignedAngle(new Vector3(direction.x, 0, direction.y), transform.forward, Vector3.up);
-        if(rb.velocity.magnitude > maxSpeed)
+        if (rb.velocity.magnitude > maxSpeed)
         {
             rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxSpeed);
         }
@@ -88,6 +88,7 @@ public class PlayerController : Singleton<PlayerController>
     {
         if (canDodge)
         {
+            initialMoveSpeed = dodgeSpeed;
             Debug.Log(rb.velocity);
             dodgeTimer = 0f;
         }
