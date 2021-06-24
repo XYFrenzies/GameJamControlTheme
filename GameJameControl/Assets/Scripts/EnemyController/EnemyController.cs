@@ -11,6 +11,7 @@ public class EnemyController : Singleton<EnemyController>
     private GameObject m_tower;
     [HideInInspector] public bool isHitPlayer = false;
     [HideInInspector] public bool isHitTower = false;
+    [HideInInspector] public bool isHitSafeZone = false;
     // Start is called before the first frame update
     void Awake()
     {
@@ -24,10 +25,10 @@ public class EnemyController : Singleton<EnemyController>
     void FixedUpdate()
     {
         //If the enemies are in the radius of the player but they are not colliding with the player.
-        if (InSearchArea.Instance.isInRadius && !isHitPlayer)
+        if (InSearchArea.Instance.isInRadius && !isHitPlayer && !isHitSafeZone)
             gameObject.transform.position = Vector3.MoveTowards(gameObject.transform.position, m_player.transform.position, m_speed * Time.fixedDeltaTime);
         //If the tower is not within the range of the enemies.
-        else if (!isHitTower)
+        else if (!isHitTower && !isHitSafeZone)
             gameObject.transform.position = Vector3.MoveTowards(gameObject.transform.position, m_tower.transform.position, m_speed * Time.fixedDeltaTime);
     }
     //Colliding with tower or player
