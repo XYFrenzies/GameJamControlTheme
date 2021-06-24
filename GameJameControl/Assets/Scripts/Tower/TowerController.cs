@@ -21,7 +21,5 @@ public class TowerController : Singleton<TowerController>
             dt = 0;
             health--;
         }
-        else if (dt > timeBetweenHits)
-            dt = 0;
     }
 }
