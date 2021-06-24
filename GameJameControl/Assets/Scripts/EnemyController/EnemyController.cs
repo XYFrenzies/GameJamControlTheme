@@ -25,10 +25,10 @@ public class EnemyController : Singleton<EnemyController>
     {
         //If the enemies are in the radius of the player but they are not colliding with the player.
         if (InSearchArea.Instance.isInRadius && !isHitPlayer)
-            gameObject.transform.position = Vector3.MoveTowards(gameObject.transform.position, m_player.transform.position, m_speed);
+            gameObject.transform.position = Vector3.MoveTowards(gameObject.transform.position, m_player.transform.position, m_speed * Time.fixedDeltaTime);
         //If the tower is not within the range of the enemies.
         else if (!isHitTower)
-            gameObject.transform.position = Vector3.MoveTowards(gameObject.transform.position, m_tower.transform.position, m_speed);
+            gameObject.transform.position = Vector3.MoveTowards(gameObject.transform.position, m_tower.transform.position, m_speed * Time.fixedDeltaTime);
     }
     //Colliding with tower or player
     private void OnCollisionEnter(Collision collision)
