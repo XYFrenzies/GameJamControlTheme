@@ -1,12 +1,105 @@
 fileFormatVersion: 2
 guid: 41d4bffa29a3e3442868fa3dbdd635e1
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7078719620889814028
+    second: SPR_Hazmat_Run_Up_0
+  - first:
+      213: -139163642410717494
+    second: SPR_Hazmat_Run_Up_1
+  - first:
+      213: -7345377474404608394
+    second: SPR_Hazmat_Run_Up_2
+  - first:
+      213: -4054586256204605143
+    second: SPR_Hazmat_Run_Up_3
+  - first:
+      213: -5267888937457960964
+    second: SPR_Hazmat_Run_Up_4
+  - first:
+      213: 5062277342102436009
+    second: SPR_Hazmat_Run_Up_5
+  - first:
+      213: 815943894286665814
+    second: SPR_Hazmat_Run_Up_6
+  - first:
+      213: 8472891001828685181
+    second: SPR_Hazmat_Run_Up_7
+  - first:
+      213: -5029055425421796058
+    second: SPR_Hazmat_Run_Up_8
+  - first:
+      213: 1912082708150447886
+    second: SPR_Hazmat_Run_Up_9
+  - first:
+      213: 248555932327455314
+    second: SPR_Hazmat_Run_Up_10
+  - first:
+      213: 4751219301314039722
+    second: SPR_Hazmat_Run_Up_11
+  - first:
+      213: -2793350067743317583
+    second: SPR_Hazmat_Run_Up_12
+  - first:
+      213: -8648517430410245908
+    second: SPR_Hazmat_Run_Up_13
+  - first:
+      213: 4714297019561358394
+    second: SPR_Hazmat_Run_Up_14
+  - first:
+      213: -7237093371624529315
+    second: SPR_Hazmat_Run_Up_15
+  - first:
+      213: 6364742125639274751
+    second: SPR_Hazmat_Run_Up_16
+  - first:
+      213: -7507885498046296702
+    second: SPR_Hazmat_Run_Up_17
+  - first:
+      213: 7559109816038171526
+    second: SPR_Hazmat_Run_Up_18
+  - first:
+      213: 8114996797144877960
+    second: SPR_Hazmat_Run_Up_19
+  - first:
+      213: -797336634163876094
+    second: SPR_Hazmat_Run_Up_20
+  - first:
+      213: 5618786100068683830
+    second: SPR_Hazmat_Run_Up_21
+  - first:
+      213: -8726716239121867106
+    second: SPR_Hazmat_Run_Up_22
+  - first:
+      213: 4985434520930186158
+    second: SPR_Hazmat_Run_Up_23
+  - first:
+      213: 3329302784588099069
+    second: SPR_Hazmat_Run_Up_24
+  - first:
+      213: 3990801752227779751
+    second: SPR_Hazmat_Run_Up_25
+  - first:
+      213: -5118081593935974561
+    second: SPR_Hazmat_Run_Up_26
+  - first:
+      213: 8516889373354666955
+    second: SPR_Hazmat_Run_Up_27
+  - first:
+      213: 2782906863976518289
+    second: SPR_Hazmat_Run_Up_28
+  - first:
+      213: 7589705435362136714
+    second: SPR_Hazmat_Run_Up_29
+  - first:
+      213: 4770737729423311394
+    second: SPR_Hazmat_Run_Up_30
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -35,13 +128,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -50,9 +143,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -73,13 +166,724 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1323
+        width: 137
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04a9b39df9ac3260800000000000000
+      internalID: 7078719620889814028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_1
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1323
+        width: 136
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acea5709767911ef0800000000000000
+      internalID: -139163642410717494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_2
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 1326
+        width: 133
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67615f0ca1aff0a90800000000000000
+      internalID: -7345377474404608394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_3
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 1330
+        width: 128
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9295eb738473bb7c0800000000000000
+      internalID: -4054586256204605143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_4
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1337
+        width: 126
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7bb9efbe2b4e6b0800000000000000
+      internalID: -5267888937457960964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_5
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1325
+        width: 126
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8368aeb62d04640800000000000000
+      internalID: 5062277342102436009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_6
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1088
+        width: 125
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6580b9716a0d25b00800000000000000
+      internalID: 815943894286665814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_7
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1088
+        width: 126
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d753a909971c59570800000000000000
+      internalID: 8472891001828685181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_8
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1083
+        width: 128
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d9bf35cb4353ab0800000000000000
+      internalID: -5029055425421796058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_9
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1081
+        width: 129
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f6978a715198a10800000000000000
+      internalID: 1912082708150447886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_10
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 1078
+        width: 131
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25aa135bd4c037300800000000000000
+      internalID: 248555932327455314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_11
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 1067
+        width: 130
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf8dc018c8bfe140800000000000000
+      internalID: 4751219301314039722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_12
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 819
+        width: 132
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1a8d6c9e60c39d0800000000000000
+      internalID: -2793350067743317583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_13
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 818
+        width: 133
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce88f96083b4af780800000000000000
+      internalID: -8648517430410245908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_14
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 818
+        width: 134
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3433a0792c8c6140800000000000000
+      internalID: 4714297019561358394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_15
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 815
+        width: 135
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d526cf91ceda09b90800000000000000
+      internalID: -7237093371624529315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_16
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 813
+        width: 135
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff091bdcd3b145850800000000000000
+      internalID: 6364742125639274751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_17
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 809
+        width: 133
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28dc4a20be1aec790800000000000000
+      internalID: -7507885498046296702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_18
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 554
+        width: 135
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683af1be35a57e860800000000000000
+      internalID: 7559109816038171526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_19
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 554
+        width: 134
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88bc04787924e9070800000000000000
+      internalID: 8114996797144877960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_20
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 557
+        width: 133
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fa1424e8a4fe4f0800000000000000
+      internalID: -797336634163876094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_21
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 562
+        width: 130
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6301f7b3030f9fd40800000000000000
+      internalID: 5618786100068683830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_22
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 570
+        width: 128
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e128f01d974e680800000000000000
+      internalID: -8726716239121867106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_23
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 550
+        width: 135
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea373076842df2540800000000000000
+      internalID: 4985434520930186158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_24
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 315
+        width: 126
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfda7114e3f043e20800000000000000
+      internalID: 3329302784588099069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_25
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 305
+        width: 124
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a41b8aac0d226730800000000000000
+      internalID: 3990801752227779751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_26
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 299
+        width: 123
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f2bf538ebe8f8b0800000000000000
+      internalID: -5118081593935974561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_27
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 296
+        width: 123
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbaa1ab2c1123670800000000000000
+      internalID: 8516889373354666955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_28
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 294
+        width: 125
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192115e5c0fde9620800000000000000
+      internalID: 2782906863976518289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_29
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 291
+        width: 137
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a829c98a1ec045960800000000000000
+      internalID: 7589705435362136714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Run_Up_30
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 33
+        width: 137
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22284de30b0153240800000000000000
+      internalID: 4770737729423311394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
