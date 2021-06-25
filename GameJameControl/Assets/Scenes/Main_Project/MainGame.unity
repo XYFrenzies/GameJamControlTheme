@@ -212,7 +212,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 15, y: 11.102309, z: 17.729164}
+  m_Size: {x: 25.73, y: 11.102309, z: 29.2}
   m_Center: {x: -2.802777, y: 5.5511546, z: -8.864597}
 --- !u!114 &63639951
 MonoBehaviour:
@@ -227,7 +227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_timer: {fileID: 1152841650}
-  amountTillCooldown: 5
+  amountTillCooldown: 20
   timeBeforeHospitalCooldown: 2
 --- !u!1001 &113747023
 PrefabInstance:
@@ -640,7 +640,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 15, y: 11.102309, z: 17.729164}
+  m_Size: {x: 25.73, y: 11.102309, z: 29.2}
   m_Center: {x: -2.802777, y: 5.5511546, z: -8.864578}
 --- !u!114 &362136457
 MonoBehaviour:
@@ -655,7 +655,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_timer: {fileID: 2008901813}
-  amountTillCooldown: 5
+  amountTillCooldown: 20
   timeBeforeHospitalCooldown: 2
 --- !u!1 &397796656 stripped
 GameObject:
@@ -689,7 +689,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 15, y: 11.102309, z: 17.729164}
+  m_Size: {x: 25.73, y: 11.102309, z: 29.2}
   m_Center: {x: -2.8027809, y: 5.5511546, z: -8.864582}
 --- !u!114 &397796661
 MonoBehaviour:
@@ -704,7 +704,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_timer: {fileID: 1966439264}
-  amountTillCooldown: 5
+  amountTillCooldown: 20
   timeBeforeHospitalCooldown: 2
 --- !u!1 &705507993
 GameObject:
@@ -2578,7 +2578,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 15, y: 11.102309, z: 17.729164}
+  m_Size: {x: 25.73, y: 11.102309, z: 29.2}
   m_Center: {x: -2.8027809, y: 5.5511546, z: -8.864574}
 --- !u!114 &2003628423
 MonoBehaviour:
@@ -2593,7 +2593,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_timer: {fileID: 933028801}
-  amountTillCooldown: 5
+  amountTillCooldown: 20
   timeBeforeHospitalCooldown: 2
 --- !u!114 &2008901813 stripped
 MonoBehaviour:

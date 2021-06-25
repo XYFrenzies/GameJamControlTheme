@@ -36,7 +36,7 @@ public class SafeZone : MonoBehaviour
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Enemy" && cooldown >= amountTillCooldown && !cooldownHasStarted)
+        if (other.CompareTag("Enemy") && cooldown >= amountTillCooldown && !cooldownHasStarted)
         {
             Destroy(other.gameObject);
             Score.Instance.IncreaseCount();
