@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 public class TowerController : Singleton<TowerController>
 {
     public float health = 3.0f;
+    public GameObject gameOverMenu;
     private void Update()
     {
         if (health <= 0)
@@ -15,7 +16,7 @@ public class TowerController : Singleton<TowerController>
             GlobalValues.Instance.isTowerDead = true;
             GlobalValues.Instance.score = Score.Instance.GetAmount();
             GlobalValues.Instance.time = Timer.Instance.GetCurrentTime();
-            SceneManager.LoadScene("GameOver");
+            gameOverMenu.SetActive(true);
         }
     }
     private void OnCollisionEnter(Collision collision)

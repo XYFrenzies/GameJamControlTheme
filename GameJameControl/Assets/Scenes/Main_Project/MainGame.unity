@@ -491,6 +491,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
+  gameOverMenu: {fileID: 19656244}
 --- !u!1 &153337583
 GameObject:
   m_ObjectHideFlags: 0
