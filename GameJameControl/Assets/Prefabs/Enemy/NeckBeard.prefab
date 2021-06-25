@@ -231,9 +231,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isInRadius: 0
   m_speed: 2
+  chaseSpeed: 10
   m_player: {fileID: 0}
   timeBetweenHits: 2
-  playerDamage: 0.1
+  playerDamage: 0.3
   towerDamage: 0.1
   anim: {fileID: 1614556544889417822}
   dt: 0

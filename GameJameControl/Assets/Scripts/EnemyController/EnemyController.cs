@@ -8,9 +8,10 @@ public class EnemyController : Singleton<EnemyController>
 {
     [HideInInspector] public bool isInRadius;
     [SerializeField] private float m_speed = 10.0f;
+    public float chaseSpeed = 3f;
     [SerializeField] private GameObject m_player;
     public float timeBetweenHits = 2.0f;
-    public float playerDamage = 0.1f;
+    public float playerDamage = 0.3f;
     public float towerDamage = 0.1f;
     private GameObject m_tower;
     public Animator anim;
@@ -39,7 +40,7 @@ public class EnemyController : Singleton<EnemyController>
         //If the enemies are in the radius of the player but they are not colliding with the player.
         if (isInRadius && !isHitPlayer && !isHitSafeZone)
         {
-            gameObject.transform.position = Vector3.MoveTowards(gameObject.transform.position, m_player.transform.position, m_speed * Time.fixedDeltaTime);
+            gameObject.transform.position = Vector3.MoveTowards(gameObject.transform.position, m_player.transform.position, chaseSpeed * Time.fixedDeltaTime);
             Vector3 pdir = (transform.position - m_player.transform.position).normalized;
             AnimationSet(pdir);
 

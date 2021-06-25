@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Practice_Scenes/Ben/Ben's_Test_Scene.unity
     guid: 1c481335388bc5d4aaa3d993fbb6b853
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Main_Project/GameOverScene/GameOver.unity
     guid: a85f99e0d973fcb46bbcd971e17cd652
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Main_Project/MainMenu.unity
     guid: 2ce4ef65d231c04419ba7a1ffc44f547
   - enabled: 1

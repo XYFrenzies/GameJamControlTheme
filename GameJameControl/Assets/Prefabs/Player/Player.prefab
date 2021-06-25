@@ -277,6 +277,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 54b81f7e-0ee9-4d81-bfc9-1d6ab2ef5f85
     m_ActionName: Player/DodgeRoll[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5c6de86c-429b-4b87-97db-b5c9bfdd824e
+    m_ActionName: Player/PauseGame[/Keyboard/escape]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -326,5 +330,5 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 5
+  m_Radius: 20
   m_Center: {x: 0, y: 0, z: 0}
