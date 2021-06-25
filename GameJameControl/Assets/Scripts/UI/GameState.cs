@@ -16,4 +16,8 @@ public class GameState : MonoBehaviour
         Application.Quit();
 #endif
     }
+    public void Update()
+    {
+        
+    }
 }
