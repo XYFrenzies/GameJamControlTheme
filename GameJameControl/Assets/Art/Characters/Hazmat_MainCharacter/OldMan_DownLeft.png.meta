@@ -1,0 +1,898 @@
+fileFormatVersion: 2
+guid: f035a1ae1f55a4446939e1706b1cc8a6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1179981928466726484
+    second: OldMan_DownLeft_0
+  - first:
+      213: 7753991339779153264
+    second: OldMan_DownLeft_1
+  - first:
+      213: -3015475712955008611
+    second: OldMan_DownLeft_2
+  - first:
+      213: 7559927490812538863
+    second: OldMan_DownLeft_3
+  - first:
+      213: 6494461581195076831
+    second: OldMan_DownLeft_4
+  - first:
+      213: 7096538654043330470
+    second: OldMan_DownLeft_5
+  - first:
+      213: -4309782520790968560
+    second: OldMan_DownLeft_6
+  - first:
+      213: 2107363570517977098
+    second: OldMan_DownLeft_7
+  - first:
+      213: 1572093056006648709
+    second: OldMan_DownLeft_8
+  - first:
+      213: -5533004372833210642
+    second: OldMan_DownLeft_9
+  - first:
+      213: 7823503845137302401
+    second: OldMan_DownLeft_10
+  - first:
+      213: 8659691870862257492
+    second: OldMan_DownLeft_11
+  - first:
+      213: 7729552420597365821
+    second: OldMan_DownLeft_12
+  - first:
+      213: -4012793040871392466
+    second: OldMan_DownLeft_13
+  - first:
+      213: -6731184655143738791
+    second: OldMan_DownLeft_14
+  - first:
+      213: 6329779210229566504
+    second: OldMan_DownLeft_15
+  - first:
+      213: 5344496614657997989
+    second: OldMan_DownLeft_16
+  - first:
+      213: -5078024503316112007
+    second: OldMan_DownLeft_17
+  - first:
+      213: 7827506468207250053
+    second: OldMan_DownLeft_18
+  - first:
+      213: 1671129180466037720
+    second: OldMan_DownLeft_19
+  - first:
+      213: -5859083137777482647
+    second: OldMan_DownLeft_20
+  - first:
+      213: -7411381217497194185
+    second: OldMan_DownLeft_21
+  - first:
+      213: -39840433999130152
+    second: OldMan_DownLeft_22
+  - first:
+      213: 3526796681752624862
+    second: OldMan_DownLeft_23
+  - first:
+      213: -3091645000936095351
+    second: OldMan_DownLeft_24
+  - first:
+      213: 5169649009610124593
+    second: OldMan_DownLeft_25
+  - first:
+      213: 289958049307841069
+    second: OldMan_DownLeft_26
+  - first:
+      213: 4190080891417629392
+    second: OldMan_DownLeft_27
+  - first:
+      213: 3735734336680595984
+    second: OldMan_DownLeft_28
+  - first:
+      213: -2365099279255774561
+    second: OldMan_DownLeft_29
+  - first:
+      213: -8165331552925999117
+    second: OldMan_DownLeft_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OldMan_DownLeft_0
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1300
+        width: 99
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45eb3a7ef43206010800000000000000
+      internalID: 1179981928466726484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_DownLeft_1
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1300
+        width: 99
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07dddf68a06bb9b60800000000000000
+      internalID: 7753991339779153264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_DownLeft_2
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1299
+        width: 99
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99bf74d0d0e626d0800000000000000
+      internalID: -3015475712955008611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_DownLeft_3
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1297
+        width: 100
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef6799aff14ae860800000000000000
+      internalID: 7559927490812538863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_DownLeft_4
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1295
+        width: 99
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4ed822666f02a50800000000000000
+      internalID: 6494461581195076831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_DownLeft_5
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1292
+        width: 99
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7d4198e48fb7260800000000000000
+      internalID: 7096538654043330470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_DownLeft_6
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1034
+        width: 99
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017111da1a39034c0800000000000000
+      internalID: -4309782520790968560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_DownLeft_7
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1033
+        width: 101
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08a259800cde3d10800000000000000
+      internalID: 2107363570517977098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_DownLeft_8
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1033
+        width: 102
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583722d1e4231d510800000000000000
+      internalID: 1572093056006648709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_DownLeft_9
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1033
+        width: 106
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeee79886d1d633b0800000000000000
+      internalID: -5533004372833210642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_DownLeft_10
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1033
+        width: 114
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183cf44eb4ba29c60800000000000000
+      internalID: 7823503845137302401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_DownLeft_11
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1037
+        width: 99
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d251320e76d2870800000000000000
+      internalID: 8659691870862257492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_DownLeft_12
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 775
+        width: 120
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c777e39f2e44b60800000000000000
+      internalID: 7729552420597365821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_DownLeft_13
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 775
+        width: 127
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b73b17df1bf48c0800000000000000
+      internalID: -4012793040871392466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_DownLeft_14
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 775
+        width: 132
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952e89038370692a0800000000000000
+      internalID: -6731184655143738791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_DownLeft_15
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 775
+        width: 136
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82cc264b7a4e7d750800000000000000
+      internalID: 6329779210229566504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_DownLeft_16
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 775
+        width: 139
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5acb7fbca577b2a40800000000000000
+      internalID: 5344496614657997989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_DownLeft_17
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 781
+        width: 99
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d1d176e9b3789b0800000000000000
+      internalID: -5078024503316112007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_DownLeft_18
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 517
+        width: 139
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ac09239a3e0ac60800000000000000
+      internalID: 7827506468207250053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_DownLeft_19
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 517
+        width: 139
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3c777b22b013710800000000000000
+      internalID: 1671129180466037720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_DownLeft_20
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 517
+        width: 136
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964ca4fcdea50bea0800000000000000
+      internalID: -5859083137777482647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_DownLeft_21
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 517
+        width: 132
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731e314cc0c752990800000000000000
+      internalID: -7411381217497194185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_DownLeft_22
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 517
+        width: 127
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1d8cb1655727ff0800000000000000
+      internalID: -39840433999130152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_DownLeft_23
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 525
+        width: 99
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede34e275e2b1f030800000000000000
+      internalID: 3526796681752624862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_DownLeft_24
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 259
+        width: 121
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981879b70454815d0800000000000000
+      internalID: -3091645000936095351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_DownLeft_25
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 259
+        width: 113
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13de24f52684eb740800000000000000
+      internalID: 5169649009610124593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_DownLeft_26
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 259
+        width: 106
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2252c04f43260400800000000000000
+      internalID: 289958049307841069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_DownLeft_27
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 259
+        width: 102
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d29919ee58262a30800000000000000
+      internalID: 4190080891417629392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_DownLeft_28
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 259
+        width: 100
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0129311269ef7d330800000000000000
+      internalID: 3735734336680595984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_DownLeft_29
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 268
+        width: 99
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a5d618cba7d2fd0800000000000000
+      internalID: -2365099279255774561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_DownLeft_30
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 11
+        width: 99
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff9e82e63aeeae80800000000000000
+      internalID: -8165331552925999117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

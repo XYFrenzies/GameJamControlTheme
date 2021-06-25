@@ -1,0 +1,898 @@
+fileFormatVersion: 2
+guid: 9bb9ec08e4d5baa4187f581d99945c8d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1252415939473584947
+    second: OldMan_UpRight_0
+  - first:
+      213: 3179334203398405067
+    second: OldMan_UpRight_1
+  - first:
+      213: -3380227181677705644
+    second: OldMan_UpRight_2
+  - first:
+      213: 6101214183102321132
+    second: OldMan_UpRight_3
+  - first:
+      213: -2936165813009513591
+    second: OldMan_UpRight_4
+  - first:
+      213: 5823021483002153147
+    second: OldMan_UpRight_5
+  - first:
+      213: -1980727739424620927
+    second: OldMan_UpRight_6
+  - first:
+      213: -6545060568951585905
+    second: OldMan_UpRight_7
+  - first:
+      213: -6159268679738268183
+    second: OldMan_UpRight_8
+  - first:
+      213: 7285106984871243456
+    second: OldMan_UpRight_9
+  - first:
+      213: 4186787202042451722
+    second: OldMan_UpRight_10
+  - first:
+      213: 3003234115965364695
+    second: OldMan_UpRight_11
+  - first:
+      213: 1526739726865717330
+    second: OldMan_UpRight_12
+  - first:
+      213: -1865370901310624887
+    second: OldMan_UpRight_13
+  - first:
+      213: -2724142198149236492
+    second: OldMan_UpRight_14
+  - first:
+      213: -6275352488867491111
+    second: OldMan_UpRight_15
+  - first:
+      213: 4342759910666309819
+    second: OldMan_UpRight_16
+  - first:
+      213: -9196541581344708225
+    second: OldMan_UpRight_17
+  - first:
+      213: 3879442803349121142
+    second: OldMan_UpRight_18
+  - first:
+      213: -3660538830915139133
+    second: OldMan_UpRight_19
+  - first:
+      213: 4396297655381357220
+    second: OldMan_UpRight_20
+  - first:
+      213: 2899564570588530372
+    second: OldMan_UpRight_21
+  - first:
+      213: 5909400569248256994
+    second: OldMan_UpRight_22
+  - first:
+      213: -7564150586872682842
+    second: OldMan_UpRight_23
+  - first:
+      213: -4865216246176300413
+    second: OldMan_UpRight_24
+  - first:
+      213: 4862393998421842401
+    second: OldMan_UpRight_25
+  - first:
+      213: -7052479087817108022
+    second: OldMan_UpRight_26
+  - first:
+      213: 5747139180105676491
+    second: OldMan_UpRight_27
+  - first:
+      213: -9045958809842432445
+    second: OldMan_UpRight_28
+  - first:
+      213: -8745483985263564009
+    second: OldMan_UpRight_29
+  - first:
+      213: 4631269688928019544
+    second: OldMan_UpRight_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OldMan_UpRight_0
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1292
+        width: 91
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dccc3a0b6568e9ee0800000000000000
+      internalID: -1252415939473584947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_UpRight_1
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1292
+        width: 91
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbbfc7fc934f1c20800000000000000
+      internalID: 3179334203398405067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_UpRight_2
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1293
+        width: 91
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4560bf799450711d0800000000000000
+      internalID: -3380227181677705644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_UpRight_3
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1294
+        width: 91
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1936259fddba450800000000000000
+      internalID: 6101214183102321132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_UpRight_4
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 1294
+        width: 91
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9830ce1efb4a047d0800000000000000
+      internalID: -2936165813009513591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_UpRight_5
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 1295
+        width: 91
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8cfc5ef278fc050800000000000000
+      internalID: 5823021483002153147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_UpRight_6
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1038
+        width: 91
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e35d68d9a0384e0800000000000000
+      internalID: -1980727739424620927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_UpRight_7
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1038
+        width: 91
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83893af6164b25a0800000000000000
+      internalID: -6545060568951585905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_UpRight_8
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1040
+        width: 94
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5e20cd4c1e58aa0800000000000000
+      internalID: -6159268679738268183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_UpRight_9
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 1042
+        width: 95
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cea7ff5436e91560800000000000000
+      internalID: 7285106984871243456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_UpRight_10
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1043
+        width: 98
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0754e717c47a1a30800000000000000
+      internalID: 4186787202042451722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_UpRight_11
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 1037
+        width: 91
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d923734481ada920800000000000000
+      internalID: 3003234115965364695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_UpRight_12
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 787
+        width: 100
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258de4c41b1103510800000000000000
+      internalID: 1526739726865717330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_UpRight_13
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 790
+        width: 102
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ba7056c0fdc16e0800000000000000
+      internalID: -1865370901310624887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_UpRight_14
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 791
+        width: 103
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8b9a99a17e13ad0800000000000000
+      internalID: -2724142198149236492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_UpRight_15
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 793
+        width: 105
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d290bcd82879e8a0800000000000000
+      internalID: -6275352488867491111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_UpRight_16
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 794
+        width: 106
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0921c3125944c30800000000000000
+      internalID: 4342759910666309819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_UpRight_17
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 778
+        width: 91
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79e6d938225f5080800000000000000
+      internalID: -9196541581344708225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_UpRight_18
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 537
+        width: 107
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678e11cecac86d530800000000000000
+      internalID: 3879442803349121142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_UpRight_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 536
+        width: 106
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c987c0e357233dc0800000000000000
+      internalID: -3660538830915139133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_UpRight_20
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 535
+        width: 105
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a273ebcc69c20d30800000000000000
+      internalID: 4396297655381357220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_UpRight_21
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 534
+        width: 104
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6cc394d925d3820800000000000000
+      internalID: 2899564570588530372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_UpRight_22
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 531
+        width: 102
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e398852288620250800000000000000
+      internalID: 5909400569248256994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_UpRight_23
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 518
+        width: 91
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a624e92e1db60790800000000000000
+      internalID: -7564150586872682842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_UpRight_24
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 271
+        width: 100
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382c333e9974b7cb0800000000000000
+      internalID: -4865216246176300413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_UpRight_25
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 270
+        width: 99
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9dce95491ba7340800000000000000
+      internalID: 4862393998421842401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_UpRight_26
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 267
+        width: 97
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac55ac0a2af802e90800000000000000
+      internalID: -7052479087817108022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_UpRight_27
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 266
+        width: 94
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6bde872a0f1cf40800000000000000
+      internalID: 5747139180105676491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_UpRight_28
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 265
+        width: 92
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346c686d36c467280800000000000000
+      internalID: -9045958809842432445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_UpRight_29
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 260
+        width: 91
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b6f75a6acc1a680800000000000000
+      internalID: -8745483985263564009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldMan_UpRight_30
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 2
+        width: 91
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854a69b9e33954040800000000000000
+      internalID: 4631269688928019544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
