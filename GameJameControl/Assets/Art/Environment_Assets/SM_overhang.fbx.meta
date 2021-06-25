@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: b23bcff564e5aab4a80a6f7cb9751715
+guid: 8b9a365729fd14c48b2d1197c0b0aa91
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M_Game_Jam_Gradient
-    second: {fileID: 2100000, guid: ba658a188069e1e49968f33f54b63684, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 1
     materialName: 0
