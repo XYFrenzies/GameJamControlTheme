@@ -1,12 +1,105 @@
 fileFormatVersion: 2
 guid: dfa30531a59f8dd4c9c3432f3e88ae0d
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2493000916603650384
+    second: SPR_BigGuy_Slow_Right_0
+  - first:
+      213: 1859960194637205902
+    second: SPR_BigGuy_Slow_Right_1
+  - first:
+      213: -2151820656356263301
+    second: SPR_BigGuy_Slow_Right_2
+  - first:
+      213: -4419742214412816438
+    second: SPR_BigGuy_Slow_Right_3
+  - first:
+      213: 6284843149319137499
+    second: SPR_BigGuy_Slow_Right_4
+  - first:
+      213: 7217674896875372470
+    second: SPR_BigGuy_Slow_Right_5
+  - first:
+      213: 5099473435372866875
+    second: SPR_BigGuy_Slow_Right_6
+  - first:
+      213: 8041593934326588811
+    second: SPR_BigGuy_Slow_Right_7
+  - first:
+      213: -3749423016298316324
+    second: SPR_BigGuy_Slow_Right_8
+  - first:
+      213: 6444878043623656034
+    second: SPR_BigGuy_Slow_Right_9
+  - first:
+      213: -3156349209951461400
+    second: SPR_BigGuy_Slow_Right_10
+  - first:
+      213: 1970621381069596413
+    second: SPR_BigGuy_Slow_Right_11
+  - first:
+      213: -8938920523014445868
+    second: SPR_BigGuy_Slow_Right_12
+  - first:
+      213: 4080249364738659470
+    second: SPR_BigGuy_Slow_Right_13
+  - first:
+      213: -2649391944601003312
+    second: SPR_BigGuy_Slow_Right_14
+  - first:
+      213: -2674473789450001151
+    second: SPR_BigGuy_Slow_Right_15
+  - first:
+      213: -1849997560246444906
+    second: SPR_BigGuy_Slow_Right_16
+  - first:
+      213: 9023319754294975735
+    second: SPR_BigGuy_Slow_Right_17
+  - first:
+      213: 5926329621242020438
+    second: SPR_BigGuy_Slow_Right_18
+  - first:
+      213: -7433532860459580088
+    second: SPR_BigGuy_Slow_Right_19
+  - first:
+      213: -9195571032253961251
+    second: SPR_BigGuy_Slow_Right_20
+  - first:
+      213: 2241244398369252813
+    second: SPR_BigGuy_Slow_Right_21
+  - first:
+      213: 2856890536305174763
+    second: SPR_BigGuy_Slow_Right_22
+  - first:
+      213: -6634241603838945046
+    second: SPR_BigGuy_Slow_Right_23
+  - first:
+      213: 5112025146098916240
+    second: SPR_BigGuy_Slow_Right_24
+  - first:
+      213: -5830686393816089578
+    second: SPR_BigGuy_Slow_Right_25
+  - first:
+      213: -329423767683750842
+    second: SPR_BigGuy_Slow_Right_26
+  - first:
+      213: -1331380966390138691
+    second: SPR_BigGuy_Slow_Right_27
+  - first:
+      213: 1004214263674198827
+    second: SPR_BigGuy_Slow_Right_28
+  - first:
+      213: 392949331271238907
+    second: SPR_BigGuy_Slow_Right_29
+  - first:
+      213: -179483921147760877
+    second: SPR_BigGuy_Slow_Right_30
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -35,13 +128,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -50,9 +143,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -73,13 +166,724 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_0
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1333
+        width: 88
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05142ea002be89220800000000000000
+      internalID: 2493000916603650384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_1
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1333
+        width: 87
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8197b941f7efc910800000000000000
+      internalID: 1859960194637205902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_2
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1333
+        width: 87
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a798d83823322e0800000000000000
+      internalID: -2151820656356263301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_3
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1334
+        width: 88
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf202f6fdbe9a2c0800000000000000
+      internalID: -4419742214412816438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_4
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1336
+        width: 87
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8e638bb8f383750800000000000000
+      internalID: 6284843149319137499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_5
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1339
+        width: 87
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfb28ce3155a2460800000000000000
+      internalID: 7217674896875372470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_6
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1081
+        width: 87
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3dc0f04218f4c640800000000000000
+      internalID: 5099473435372866875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_7
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1084
+        width: 92
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85e87bb31b799f60800000000000000
+      internalID: 8041593934326588811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_8
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1088
+        width: 101
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd7dd8c1af57fbc0800000000000000
+      internalID: -3749423016298316324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_9
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1090
+        width: 110
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a07ea2f6ec07950800000000000000
+      internalID: 6444878043623656034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_10
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1090
+        width: 116
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef12c9dd156234d0800000000000000
+      internalID: -3156349209951461400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_11
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1079
+        width: 87
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6617d84bd095b10800000000000000
+      internalID: 1970621381069596413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 833
+        width: 124
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4664e052392f380800000000000000
+      internalID: -8938920523014445868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_13
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 833
+        width: 129
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84d24cdd25ff9830800000000000000
+      internalID: 4080249364738659470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_14
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 833
+        width: 133
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da964f30187b3bd0800000000000000
+      internalID: -2649391944601003312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_15
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 833
+        width: 138
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1056dba224c52ead0800000000000000
+      internalID: -2674473789450001151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_16
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 833
+        width: 140
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69cdb2a450d7356e0800000000000000
+      internalID: -1849997560246444906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_17
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 819
+        width: 88
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc54894285493d70800000000000000
+      internalID: 9023319754294975735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_18
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 574
+        width: 141
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6528108346d8e3250800000000000000
+      internalID: 5926329621242020438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_19
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 575
+        width: 140
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8450d1a7f39c6d890800000000000000
+      internalID: -7433532860459580088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_20
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 574
+        width: 135
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb61abcdd4c26080800000000000000
+      internalID: -9195571032253961251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_21
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 575
+        width: 126
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc522abd7ef7a1f10800000000000000
+      internalID: 2241244398369252813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_22
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 572
+        width: 114
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be825aa6ec6b5a720800000000000000
+      internalID: 2856890536305174763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_23
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 560
+        width: 88
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8df0939607ee3a0800000000000000
+      internalID: -6634241603838945046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_24
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 311
+        width: 102
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b171429cf81f640800000000000000
+      internalID: 5112025146098916240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_25
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 309
+        width: 93
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c73ebfd9d351fa0800000000000000
+      internalID: -5830686393816089578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_26
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 308
+        width: 87
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644a3a224d6ad6bf0800000000000000
+      internalID: -329423767683750842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_27
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 308
+        width: 87
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db87995a01cf58de0800000000000000
+      internalID: -1331380966390138691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_28
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 307
+        width: 87
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b5ea06d8fafed00800000000000000
+      internalID: 1004214263674198827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_29
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 301
+        width: 88
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf44629b559047500800000000000000
+      internalID: 392949331271238907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_BigGuy_Slow_Right_30
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 43
+        width: 87
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fe71d1358528df0800000000000000
+      internalID: -179483921147760877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4c03b6d3cbb498141984c9ababbd317a
     internalID: 0
     vertices: []
     indices: 

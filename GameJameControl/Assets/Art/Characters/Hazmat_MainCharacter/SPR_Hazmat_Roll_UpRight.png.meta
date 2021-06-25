@@ -1,12 +1,105 @@
 fileFormatVersion: 2
 guid: 3a0e057a36fdb5c4da33f0865f68844c
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 159871475939728094
+    second: SPR_Hazmat_Roll_UpRight_0
+  - first:
+      213: -3522490402422686501
+    second: SPR_Hazmat_Roll_UpRight_1
+  - first:
+      213: 4291460148471151477
+    second: SPR_Hazmat_Roll_UpRight_2
+  - first:
+      213: 8517178538969009647
+    second: SPR_Hazmat_Roll_UpRight_3
+  - first:
+      213: -2325438690020709099
+    second: SPR_Hazmat_Roll_UpRight_4
+  - first:
+      213: -7996730796983419407
+    second: SPR_Hazmat_Roll_UpRight_5
+  - first:
+      213: 6286998440440582225
+    second: SPR_Hazmat_Roll_UpRight_6
+  - first:
+      213: 6743757213245821484
+    second: SPR_Hazmat_Roll_UpRight_7
+  - first:
+      213: -2821597475157040650
+    second: SPR_Hazmat_Roll_UpRight_8
+  - first:
+      213: 1694639595802101532
+    second: SPR_Hazmat_Roll_UpRight_9
+  - first:
+      213: -6721392009725217395
+    second: SPR_Hazmat_Roll_UpRight_10
+  - first:
+      213: -417288489092553564
+    second: SPR_Hazmat_Roll_UpRight_11
+  - first:
+      213: 6299124079550713829
+    second: SPR_Hazmat_Roll_UpRight_12
+  - first:
+      213: -5401945082415007821
+    second: SPR_Hazmat_Roll_UpRight_13
+  - first:
+      213: 1129226404377150830
+    second: SPR_Hazmat_Roll_UpRight_14
+  - first:
+      213: 8102442081018206615
+    second: SPR_Hazmat_Roll_UpRight_15
+  - first:
+      213: -3303389898912738636
+    second: SPR_Hazmat_Roll_UpRight_16
+  - first:
+      213: 6270935049326700004
+    second: SPR_Hazmat_Roll_UpRight_17
+  - first:
+      213: -1008353818493576844
+    second: SPR_Hazmat_Roll_UpRight_18
+  - first:
+      213: 2027908059301854565
+    second: SPR_Hazmat_Roll_UpRight_19
+  - first:
+      213: 4368249797254772803
+    second: SPR_Hazmat_Roll_UpRight_20
+  - first:
+      213: 5937613054823016031
+    second: SPR_Hazmat_Roll_UpRight_21
+  - first:
+      213: 6737980677880363646
+    second: SPR_Hazmat_Roll_UpRight_22
+  - first:
+      213: -8674927019786080065
+    second: SPR_Hazmat_Roll_UpRight_23
+  - first:
+      213: -4799344664441819353
+    second: SPR_Hazmat_Roll_UpRight_24
+  - first:
+      213: 7505784864732614285
+    second: SPR_Hazmat_Roll_UpRight_25
+  - first:
+      213: 6353841525125660061
+    second: SPR_Hazmat_Roll_UpRight_26
+  - first:
+      213: 4929143079952717301
+    second: SPR_Hazmat_Roll_UpRight_27
+  - first:
+      213: -2904854491679494656
+    second: SPR_Hazmat_Roll_UpRight_28
+  - first:
+      213: 7283544407908652060
+    second: SPR_Hazmat_Roll_UpRight_29
+  - first:
+      213: -3524857249673899647
+    second: SPR_Hazmat_Roll_UpRight_30
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -35,13 +128,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -50,9 +143,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -73,13 +166,724 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_0
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1347
+        width: 120
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edada15a24af73200800000000000000
+      internalID: 159871475939728094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_1
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1345
+        width: 121
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc7fd654a99d1fc0800000000000000
+      internalID: -3522490402422686501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_2
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1339
+        width: 119
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b3e5594445e8b30800000000000000
+      internalID: 4291460148471151477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_3
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1331
+        width: 119
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed04d751c8133670800000000000000
+      internalID: 8517178538969009647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_4
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 1320
+        width: 116
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51dad5605d16abfd0800000000000000
+      internalID: -2325438690020709099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_5
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1383
+        width: 142
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd706965b7e50190800000000000000
+      internalID: -7996730796983419407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_6
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1050
+        width: 113
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15055e985c7ef3750800000000000000
+      internalID: 6286998440440582225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_7
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1038
+        width: 110
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22defa9473a69d50800000000000000
+      internalID: 6743757213245821484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_8
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1033
+        width: 111
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1202abb0ca7d8d0800000000000000
+      internalID: -2821597475157040650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_9
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1033
+        width: 117
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17881adbb1948710800000000000000
+      internalID: 1694639595802101532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_10
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 1033
+        width: 124
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85fd202491d8b2a0800000000000000
+      internalID: -6721392009725217395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_11
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1109
+        width: 133
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a467ce745e753af0800000000000000
+      internalID: -417288489092553564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_12
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 775
+        width: 129
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5efcab5e9fbfa6750800000000000000
+      internalID: 6299124079550713829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_13
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 775
+        width: 134
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b73c7a719f6805b0800000000000000
+      internalID: -5401945082415007821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_14
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 779
+        width: 135
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6544ef8e61dbaf00800000000000000
+      internalID: 1129226404377150830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_15
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 801
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7995444e428a17070800000000000000
+      internalID: 8102442081018206615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_16
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 799
+        width: 123
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b251b893600822d0800000000000000
+      internalID: -3303389898912738636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_17
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 840
+        width: 123
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e52aa8d336d60750800000000000000
+      internalID: 6270935049326700004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_18
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 541
+        width: 110
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47918c86b8b9102f0800000000000000
+      internalID: -1008353818493576844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_19
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 545
+        width: 94
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56db6d7b2a3942c10800000000000000
+      internalID: 2027908059301854565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_20
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 556
+        width: 87
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348fa8feb042f9c30800000000000000
+      internalID: 4368249797254772803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_21
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 570
+        width: 98
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56a2725d93a66250800000000000000
+      internalID: 5937613054823016031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_22
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 577
+        width: 107
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a31882abd128d50800000000000000
+      internalID: 6737980677880363646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_23
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 576
+        width: 121
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0763556d77c9780800000000000000
+      internalID: -8674927019786080065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_24
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 325
+        width: 117
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f6749a47d456db0800000000000000
+      internalID: -4799344664441819353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_25
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 330
+        width: 128
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e04ee2197e92860800000000000000
+      internalID: 7505784864732614285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_26
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 332
+        width: 138
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9dbd38f3316d2850800000000000000
+      internalID: 6353841525125660061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_27
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 339
+        width: 146
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f518a7f385d76440800000000000000
+      internalID: 4929143079952717301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_28
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 348
+        width: 147
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00eee3bfa32efa7d0800000000000000
+      internalID: -2904854491679494656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_29
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 315
+        width: 120
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c149d239c09541560800000000000000
+      internalID: 7283544407908652060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_Hazmat_Roll_UpRight_30
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 57
+        width: 120
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1811a35c101351fc0800000000000000
+      internalID: -3524857249673899647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 87cc49ad44691b34085be98c49a82677
     internalID: 0
     vertices: []
     indices: 
