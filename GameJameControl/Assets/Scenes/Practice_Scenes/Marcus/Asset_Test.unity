@@ -410,6 +410,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_overhangBrown02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8464076759671113792, guid: 6d7e32dcc50795d49a6d0224fe7a1966, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ba622eed7a37efe479387523fe2c05ef, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d7e32dcc50795d49a6d0224fe7a1966, type: 3}
 --- !u!1001 &1263110113
@@ -568,6 +572,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7741667777395405315, guid: 22eaca37509cbb34aab287263f9409cd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ba622eed7a37efe479387523fe2c05ef, type: 2}
     - target: {fileID: 8101713649226355670, guid: 22eaca37509cbb34aab287263f9409cd, type: 3}
       propertyPath: m_Name
       value: SM_hospital
@@ -625,6 +633,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7776647792598306206, guid: 5a0a5b2c53e07494aa2d40fb6d31801c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ba622eed7a37efe479387523fe2c05ef, type: 2}
     - target: {fileID: 8137106806343887947, guid: 5a0a5b2c53e07494aa2d40fb6d31801c, type: 3}
       propertyPath: m_Name
       value: SM_overhangSupport
@@ -686,6 +698,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: -5008449271640109608, guid: 8b9a365729fd14c48b2d1197c0b0aa91, type: 3}
+    - target: {fileID: 7479665490959535944, guid: ac61e662700b35f45adcd544cd5c76cd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ba622eed7a37efe479387523fe2c05ef, type: 2}
     - target: {fileID: 8612625205937566759, guid: ac61e662700b35f45adcd544cd5c76cd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.5
@@ -743,6 +759,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7251743567702934108, guid: ff5fb5e9dd9dd0e429455c6328505e37, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ba622eed7a37efe479387523fe2c05ef, type: 2}
     - target: {fileID: 8424109026458450227, guid: ff5fb5e9dd9dd0e429455c6328505e37, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.94
@@ -999,6 +1019,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2459493428657977218, guid: af6edddb242aa4c4b8164bcddb5004ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ba622eed7a37efe479387523fe2c05ef, type: 2}
     - target: {fileID: 3632941323189685485, guid: af6edddb242aa4c4b8164bcddb5004ff, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.932
@@ -1056,6 +1080,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5263065360538344439, guid: b8d9b745a5fb96a4bae38b37a2dbc46c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ba622eed7a37efe479387523fe2c05ef, type: 2}
     - target: {fileID: 5911773303070177826, guid: b8d9b745a5fb96a4bae38b37a2dbc46c, type: 3}
       propertyPath: m_Name
       value: SM_tree03
@@ -1113,6 +1141,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 144914336259550107, guid: 7a85642dadfc23d46b81339655a1ad89, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ba622eed7a37efe479387523fe2c05ef, type: 2}
     - target: {fileID: 1317859306225488116, guid: 7a85642dadfc23d46b81339655a1ad89, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.94
@@ -1218,5 +1250,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_overhangBrown02
       objectReference: {fileID: 0}
+    - target: {fileID: 8464076759671113792, guid: 6d7e32dcc50795d49a6d0224fe7a1966, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ba622eed7a37efe479387523fe2c05ef, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d7e32dcc50795d49a6d0224fe7a1966, type: 3}
