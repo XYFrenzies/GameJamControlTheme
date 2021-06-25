@@ -1,50 +1,50 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class SafeZone : MonoBehaviour
 {
-    [SerializeField]private float timeBeforeAllDelete = 5.0f;
-    private bool newKarrenInArea;
-    private float timer;
-    private List<GameObject> m_karrens;
-    // Start is called before the first frame update
-    void Start()
-    {
-        m_karrens = new List<GameObject>();
-    }
+    [SerializeField] private Text m_timer = null;
+    [SerializeField] private int amountTillCooldown = 5;
+    [SerializeField] private float timeBeforeHospitalCooldown = 2.00f;
+    private float seconds = 0;
+    private int cooldown = 0;
+    private bool cooldownHasStarted = false;
+
     private void Update()
     {
-        if (newKarrenInArea == true)
+        if (cooldown >= amountTillCooldown && !cooldownHasStarted)
         {
-            timer += Time.deltaTime;
-            if (timer > timeBeforeAllDelete)
+            cooldownHasStarted = true;
+            seconds = timeBeforeHospitalCooldown;
+        }
+        if (cooldownHasStarted)
+        {
+            seconds -= 1 * Time.deltaTime;
+            DisplayTime(seconds);
+            if (seconds <= 0)
             {
-                //Makes an effect for when the karrens die.
-                DeleteGameObjects();
-                newKarrenInArea = false;
-                Score.Instance.IncreaseCount();
+                cooldownHasStarted = false;
+                cooldown = 0;
             }
         }
+
     }
+    // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Enemy")
+        if (other.tag == "Enemy" && cooldown >= amountTillCooldown && !cooldownHasStarted)
         {
-            m_karrens.Add(other.gameObject);
-            newKarrenInArea = true;
-            foreach (var karren in m_karrens)
-            {
-                karren.GetComponent<EnemyController>().isHitSafeZone = true;
-            }
+            Destroy(other.gameObject);
+            Score.Instance.IncreaseCount();
+            cooldown += 1;
         }
     }
-    private void DeleteGameObjects() 
+    void DisplayTime(float timeToDisplay)
     {
-        foreach (var karren in m_karrens)
-        {            
-            Destroy(karren);
-        }
-        m_karrens.Clear();
+        float minutes = Mathf.FloorToInt(timeToDisplay / 60); //converts time to minutes
+        float seconds = Mathf.FloorToInt(timeToDisplay % 60); // converts time 
+
+        m_timer.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 }

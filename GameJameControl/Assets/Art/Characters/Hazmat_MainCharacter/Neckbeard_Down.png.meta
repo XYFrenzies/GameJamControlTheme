@@ -1,0 +1,835 @@
+fileFormatVersion: 2
+guid: 8ac07ce5c48527f478deed105ad2dcbe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6080942999530245679
+    second: Neckbeard_Down_0
+  - first:
+      213: -9015527544782075014
+    second: Neckbeard_Down_1
+  - first:
+      213: 4813356042761635664
+    second: Neckbeard_Down_2
+  - first:
+      213: 3249031649253874920
+    second: Neckbeard_Down_3
+  - first:
+      213: -2876077132700066417
+    second: Neckbeard_Down_4
+  - first:
+      213: 949021954380128407
+    second: Neckbeard_Down_5
+  - first:
+      213: -7956214975619441273
+    second: Neckbeard_Down_6
+  - first:
+      213: -8785390354157479660
+    second: Neckbeard_Down_7
+  - first:
+      213: 3384759911261753523
+    second: Neckbeard_Down_8
+  - first:
+      213: -8593649160102783229
+    second: Neckbeard_Down_9
+  - first:
+      213: 6773171467177548193
+    second: Neckbeard_Down_10
+  - first:
+      213: -5166563260015476907
+    second: Neckbeard_Down_11
+  - first:
+      213: 4345722240693288638
+    second: Neckbeard_Down_12
+  - first:
+      213: -1790539573615544227
+    second: Neckbeard_Down_13
+  - first:
+      213: -2373809662096114604
+    second: Neckbeard_Down_14
+  - first:
+      213: 8591435896691203587
+    second: Neckbeard_Down_15
+  - first:
+      213: -9136618323860858242
+    second: Neckbeard_Down_16
+  - first:
+      213: 8954479334808305295
+    second: Neckbeard_Down_17
+  - first:
+      213: 219743207012799366
+    second: Neckbeard_Down_18
+  - first:
+      213: 7431310690525607856
+    second: Neckbeard_Down_19
+  - first:
+      213: -7125446502000292859
+    second: Neckbeard_Down_20
+  - first:
+      213: 1415029763820236425
+    second: Neckbeard_Down_21
+  - first:
+      213: -698682074716385233
+    second: Neckbeard_Down_22
+  - first:
+      213: -8014031141978371677
+    second: Neckbeard_Down_23
+  - first:
+      213: -2928159669453301119
+    second: Neckbeard_Down_24
+  - first:
+      213: -2592827415927826151
+    second: Neckbeard_Down_25
+  - first:
+      213: 425877267471095576
+    second: Neckbeard_Down_26
+  - first:
+      213: -1409202771809855170
+    second: Neckbeard_Down_27
+  - first:
+      213: -5150641371337859580
+    second: Neckbeard_Down_28
+  - first:
+      213: -2952609403599847226
+    second: Neckbeard_Down_29
+  - first:
+      213: -1614603381685757686
+    second: Neckbeard_Down_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Neckbeard_Down_0
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1312
+        width: 132
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e066a9079d36450800000000000000
+      internalID: 6080942999530245679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Down_1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1312
+        width: 133
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bc38ed67962e280800000000000000
+      internalID: -9015527544782075014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Down_2
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1313
+        width: 132
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057894291d97cc240800000000000000
+      internalID: 4813356042761635664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Down_3
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1314
+        width: 133
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec57c52211e61d20800000000000000
+      internalID: 3249031649253874920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Down_4
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 1318
+        width: 131
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8dd9cef51f1618d0800000000000000
+      internalID: -2876077132700066417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Down_5
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1324
+        width: 132
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790efda707a9b2d00800000000000000
+      internalID: 949021954380128407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Down_6
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1066
+        width: 131
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d5f8d22a8d59190800000000000000
+      internalID: -7956214975619441273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Down_7
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1075
+        width: 132
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419dc471506041680800000000000000
+      internalID: -8785390354157479660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Down_8
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1086
+        width: 131
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b05db0c43519fe20800000000000000
+      internalID: 3384759911261753523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Down_9
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1081
+        width: 132
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3075db7be993db880800000000000000
+      internalID: -8593649160102783229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Down_10
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 1066
+        width: 131
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9dde740932ffd50800000000000000
+      internalID: 6773171467177548193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Down_12
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 797
+        width: 131
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebeb9017a5b1f4c30800000000000000
+      internalID: 4345722240693288638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Down_13
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 790
+        width: 131
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58bd569eb9b627e0800000000000000
+      internalID: -1790539573615544227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Down_14
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 787
+        width: 130
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cfe5670b88e0fd0800000000000000
+      internalID: -2373809662096114604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Down_15
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 786
+        width: 131
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e91dcbd69ea3770800000000000000
+      internalID: 8591435896691203587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Down_16
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 786
+        width: 130
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ad2f5da06343180800000000000000
+      internalID: -9136618323860858242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Down_18
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 529
+        width: 130
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6839dc3584fac0300800000000000000
+      internalID: 219743207012799366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Down_19
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 528
+        width: 131
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7775443b1512760800000000000000
+      internalID: 7431310690525607856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Down_20
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 528
+        width: 130
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c093e98245d1d90800000000000000
+      internalID: -7125446502000292859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Down_21
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 529
+        width: 131
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e2c13b21233a310800000000000000
+      internalID: 1415029763820236425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Down_22
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 532
+        width: 130
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20d895da58cd46f0800000000000000
+      internalID: -698682074716385233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Down_24
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 281
+        width: 131
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a5c907b461d57d0800000000000000
+      internalID: -2928159669453301119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Down_25
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 292
+        width: 132
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9195abdd33d640cd0800000000000000
+      internalID: -2592827415927826151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Down_26
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 307
+        width: 131
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817578d4e1509e500800000000000000
+      internalID: 425877267471095576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Down_27
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 312
+        width: 132
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3917c99b81817ce0800000000000000
+      internalID: -1409202771809855170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Down_28
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 301
+        width: 131
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ed9f746fe3588b0800000000000000
+      internalID: -5150641371337859580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Down_29
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 280
+        width: 133
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c004f914693607d0800000000000000
+      internalID: -2952609403599847226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Down_30
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 22
+        width: 132
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09d97567c6c799e0800000000000000
+      internalID: -1614603381685757686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 4ea9cd57b5418994788438e230b84ebe
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

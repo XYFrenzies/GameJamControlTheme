@@ -1,0 +1,835 @@
+fileFormatVersion: 2
+guid: 94345ba2c8a99b44087eee504755226b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1703554872112680240
+    second: Neckbeard_Right_0
+  - first:
+      213: -5017343147772767124
+    second: Neckbeard_Right_1
+  - first:
+      213: 4123446659612128322
+    second: Neckbeard_Right_2
+  - first:
+      213: 5790956053877939017
+    second: Neckbeard_Right_3
+  - first:
+      213: -4500719549408276387
+    second: Neckbeard_Right_4
+  - first:
+      213: 4979078692813892377
+    second: Neckbeard_Right_5
+  - first:
+      213: -5681311212957626149
+    second: Neckbeard_Right_6
+  - first:
+      213: -1729980333060277386
+    second: Neckbeard_Right_7
+  - first:
+      213: 1781622484786857588
+    second: Neckbeard_Right_8
+  - first:
+      213: 8513884535495839558
+    second: Neckbeard_Right_9
+  - first:
+      213: -7592105904615093135
+    second: Neckbeard_Right_10
+  - first:
+      213: -699213034676858283
+    second: Neckbeard_Right_11
+  - first:
+      213: -7360470364496353253
+    second: Neckbeard_Right_12
+  - first:
+      213: 9174424416037138980
+    second: Neckbeard_Right_13
+  - first:
+      213: 7673776448456868127
+    second: Neckbeard_Right_14
+  - first:
+      213: 3276454873102500365
+    second: Neckbeard_Right_15
+  - first:
+      213: -3704512228106307428
+    second: Neckbeard_Right_16
+  - first:
+      213: -3809235921975712428
+    second: Neckbeard_Right_17
+  - first:
+      213: 642879421064684500
+    second: Neckbeard_Right_18
+  - first:
+      213: 2432110830673771902
+    second: Neckbeard_Right_19
+  - first:
+      213: -1981152917763124974
+    second: Neckbeard_Right_20
+  - first:
+      213: -8930742819658950405
+    second: Neckbeard_Right_21
+  - first:
+      213: -2575048419313913172
+    second: Neckbeard_Right_22
+  - first:
+      213: 2898843391330192636
+    second: Neckbeard_Right_23
+  - first:
+      213: 5301589080566712919
+    second: Neckbeard_Right_24
+  - first:
+      213: -6092511775012902311
+    second: Neckbeard_Right_25
+  - first:
+      213: 6180871093958745814
+    second: Neckbeard_Right_26
+  - first:
+      213: 17399295344953811
+    second: Neckbeard_Right_27
+  - first:
+      213: 8746523263614391707
+    second: Neckbeard_Right_28
+  - first:
+      213: -1100912124205408581
+    second: Neckbeard_Right_29
+  - first:
+      213: 2109225278867190854
+    second: Neckbeard_Right_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Neckbeard_Right_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1351
+        width: 166
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d27650aed1cb58e0800000000000000
+      internalID: -1703554872112680240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Right_1
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1351
+        width: 164
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6493c87df0de5ab0800000000000000
+      internalID: -5017343147772767124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Right_2
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1352
+        width: 156
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244b374d3ec693930800000000000000
+      internalID: 4123446659612128322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Right_3
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1351
+        width: 145
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bda4569db9d5050800000000000000
+      internalID: 5790956053877939017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Right_4
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1346
+        width: 128
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d501dd76a6b3a81c0800000000000000
+      internalID: -4500719549408276387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Right_5
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1340
+        width: 106
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b63e9d0bd391540800000000000000
+      internalID: 4979078692813892377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Right_6
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1082
+        width: 106
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0973d7d8de721b0800000000000000
+      internalID: -5681311212957626149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Right_7
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1077
+        width: 88
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67bb78b8d00edf7e0800000000000000
+      internalID: -1729980333060277386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Right_8
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1075
+        width: 84
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476c191e53899b810800000000000000
+      internalID: 1781622484786857588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Right_9
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1074
+        width: 84
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64fcbe460e4672670800000000000000
+      internalID: 8513884535495839558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Right_10
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1075
+        width: 84
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c854a87eb63a690800000000000000
+      internalID: -7592105904615093135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Right_12
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 818
+        width: 108
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18a760733b5ad990800000000000000
+      internalID: -7360470364496353253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Right_13
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 822
+        width: 131
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4227090f56a125f70800000000000000
+      internalID: 9174424416037138980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Right_14
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 826
+        width: 149
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11c700c50bbe7a60800000000000000
+      internalID: 7673776448456868127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Right_15
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 830
+        width: 160
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d024fd1095e487d20800000000000000
+      internalID: 3276454873102500365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Right_16
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 833
+        width: 167
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98f1a181cde69cc0800000000000000
+      internalID: -3704512228106307428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Right_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 576
+        width: 169
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d328f56d67fbe800800000000000000
+      internalID: 642879421064684500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Right_19
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 575
+        width: 167
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7db0b42ae790c120800000000000000
+      internalID: 2432110830673771902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Right_20
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 572
+        width: 160
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211100bfae78184e0800000000000000
+      internalID: -1981152917763124974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Right_21
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 568
+        width: 149
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf89bddf8b0af0480800000000000000
+      internalID: -8930742819658950405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Right_22
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 564
+        width: 131
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2fc571b17934cd0800000000000000
+      internalID: -2575048419313913172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Right_24
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 303
+        width: 108
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ac4440e27039940800000000000000
+      internalID: 5301589080566712919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Right_25
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 301
+        width: 84
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95aa874f1dc037ba0800000000000000
+      internalID: -6092511775012902311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Right_26
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 300
+        width: 84
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de14e5238dd6c550800000000000000
+      internalID: 6180871093958745814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Right_27
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 301
+        width: 84
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9c0622190dd3000800000000000000
+      internalID: 17399295344953811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Right_28
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 303
+        width: 88
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b951d633194e16970800000000000000
+      internalID: 8746523263614391707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Right_29
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 320
+        width: 164
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbed0d38146c8b0f0800000000000000
+      internalID: -1100912124205408581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neckbeard_Right_30
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 62
+        width: 166
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644372a4739754d10800000000000000
+      internalID: 2109225278867190854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e64f779ccb3a4d84f869f57728123051
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
