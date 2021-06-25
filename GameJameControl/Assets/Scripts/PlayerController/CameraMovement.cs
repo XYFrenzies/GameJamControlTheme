@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[ExecuteAlways]
+
 public class CameraMovement : MonoBehaviour
 {
     [SerializeField] private Transform m_player = null;
