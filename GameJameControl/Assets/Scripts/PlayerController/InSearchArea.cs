@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class InSearchArea : Singleton<InSearchArea>
 {
-    [HideInInspector] public bool isInRadius;
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Enemy")
         {
-            isInRadius = true;
+            other.gameObject.GetComponent<EnemyController>().isInRadius = true;
         }
     }
     private void OnTriggerExit(Collider other)
     {
         if (other.tag == "Enemy")
         {
-            isInRadius = false;
+            other.gameObject.GetComponent<EnemyController>().isInRadius = false;
         }
     }
 }

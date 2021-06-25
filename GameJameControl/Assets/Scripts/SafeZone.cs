@@ -42,8 +42,9 @@ public class SafeZone : MonoBehaviour
     private void DeleteGameObjects() 
     {
         foreach (var karren in m_karrens)
-        {
+        {            
             Destroy(karren);
         }
+        m_karrens.Clear();
     }
 }

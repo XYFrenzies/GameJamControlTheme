@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 /// <summary>
 /// This will be the towers controls and having a health display.
 /// </summary>
@@ -11,7 +12,10 @@ public class TowerController : Singleton<TowerController>
     {
         if (health <= 0)
         {
-            //Do Something
+            GlobalValues.Instance.isTowerDead = true;
+            GlobalValues.Instance.score = Score.Instance.GetAmount();
+            GlobalValues.Instance.time = Timer.Instance.GetCurrentTime();
+            SceneManager.LoadScene("GameOver");
         }
     }
     private void OnCollisionEnter(Collision collision)
