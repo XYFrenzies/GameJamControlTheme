@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class Timer : MonoBehaviour
+public class Timer : Singleton<Timer>
 {
     float currentTime = 0f;
     [SerializeField] private Text timerText = null;
@@ -20,5 +20,9 @@ public class Timer : MonoBehaviour
         float seconds = Mathf.FloorToInt(timeToDisplay % 60); // converts time 
 
         timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+    }
+    public string GetCurrentTime() 
+    {
+        return timerText.text;
     }
 }

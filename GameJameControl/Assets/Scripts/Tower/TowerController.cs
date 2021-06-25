@@ -6,14 +6,14 @@ using UnityEngine;
 /// </summary>
 public class TowerController : Singleton<TowerController>
 {
-    private bool isDead = false;
     public int health = 3;
     private void Update()
     {
         if (health <= 0)
         {
-            isDead = true;
-            
+            GlobalValues.Instance.isTowerDead = true;
+            GlobalValues.Instance.score = Score.Instance.GetAmount();
+            GlobalValues.Instance.time = Timer.Instance.GetCurrentTime();
         }
     }
     private void OnCollisionEnter(Collision collision)
