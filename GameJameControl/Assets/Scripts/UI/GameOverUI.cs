@@ -3,7 +3,6 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class GameOverUI : MonoBehaviour
 {
-    [SerializeField] private string sceneToPlayAgain = "SampleScene";
     [SerializeField] private string m_towerDestroyedText = "Tower was Destroyed";
     [SerializeField] private string m_playerDiedText = "Player Died";
     [SerializeField] private Text m_scoreText = null;
@@ -25,7 +24,7 @@ public class GameOverUI : MonoBehaviour
     public void StartAgain() 
     {
         GlobalValues.Instance.RestartGlobalValues();
-        SceneManager.LoadScene(sceneToPlayAgain);
+        SceneManager.LoadScene("MainGame");
     }
     public void QuitApplication() 
     {
