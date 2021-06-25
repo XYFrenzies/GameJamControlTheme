@@ -6,7 +6,7 @@ using UnityEngine;
 /// </summary>
 public class EnemyController : Singleton<EnemyController>
 {
-
+    [HideInInspector] public bool isInRadius;
     [SerializeField] private float m_speed = 10.0f;
     [SerializeField] private GameObject m_player;
     public float timeBetweenHits = 2.0f;
@@ -34,7 +34,7 @@ public class EnemyController : Singleton<EnemyController>
     void FixedUpdate()
     {
         //If the enemies are in the radius of the player but they are not colliding with the player.
-        if (InSearchArea.Instance.isInRadius && !isHitPlayer && !isHitSafeZone)
+        if (isInRadius  && !isHitPlayer && !isHitSafeZone)
             gameObject.transform.position = Vector3.MoveTowards(gameObject.transform.position, m_player.transform.position, m_speed * Time.fixedDeltaTime);
         //If the tower is not within the range of the enemies.
         else if (!isHitTower && !isHitSafeZone)

@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Practice_Scenes/Ben/Ben's_Test_Scene.unity
+    guid: 1c481335388bc5d4aaa3d993fbb6b853
+  - enabled: 1
+    path: Assets/Scenes/Main_Project/GameOverScene/GameOver.unity
+    guid: a85f99e0d973fcb46bbcd971e17cd652
   m_configObjects: {}
