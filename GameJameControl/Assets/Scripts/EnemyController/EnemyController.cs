@@ -78,9 +78,10 @@ public class EnemyController : Singleton<EnemyController>
             isHitTower = false;
             gameObject.GetComponent<Rigidbody>().isKinematic = false;
         }
-        if (collision.collider.CompareTag("Player"))
+        if (collision.collider.CompareTag("Player") && dt > timeBetweenHits)
         {
             isHitPlayer = false;
+            dt = 0;
         }
     }
 

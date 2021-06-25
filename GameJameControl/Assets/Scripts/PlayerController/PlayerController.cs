@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.Animations;
 using UnityEngine.InputSystem.Interactions;
 using System;
+using UnityEngine.SceneManagement;
 public class PlayerController : Singleton<PlayerController>
 {
     public float moveForce = 1000f;
@@ -49,6 +50,11 @@ public class PlayerController : Singleton<PlayerController>
 
     public void Update()
     {
+        if (health <= 0)
+        {
+            GlobalValues.Instance.isTowerDead = false;
+            SceneManager.LoadScene("GameOver");
+        }
         Move(m_Move);
 
         if (invincibleAmount > 0)
@@ -68,6 +74,7 @@ public class PlayerController : Singleton<PlayerController>
             if (actCooldown > 0)
                 actCooldown -= Time.deltaTime;
         }
+
     }
 
     private void Move(Vector2 direction)
@@ -123,8 +130,11 @@ public class PlayerController : Singleton<PlayerController>
             {
                 health -= amount;
             }
-            if (health <= 0)
-                health = 0f;
+        }
+        if (health <= 0)
+        {
+            GlobalValues.Instance.isTowerDead = false;
+            SceneManager.LoadScene("GameOver");
         }
     }
 
