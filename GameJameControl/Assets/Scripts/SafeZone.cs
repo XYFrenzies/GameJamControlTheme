@@ -10,7 +10,10 @@ public class SafeZone : MonoBehaviour
     private float seconds = 0;
     private int cooldown = 0;
     private bool cooldownHasStarted = false;
-
+    void Awake() 
+    {
+        m_timer.gameObject.SetActive(false);
+    }
     private void Update()
     {
         if (cooldown >= amountTillCooldown && !cooldownHasStarted)
