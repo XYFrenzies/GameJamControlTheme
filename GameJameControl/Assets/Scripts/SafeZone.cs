@@ -16,27 +16,27 @@ public class SafeZone : MonoBehaviour
     }
     private void Update()
     {
-        if (cooldown >= amountTillCooldown && !cooldownHasStarted)
-        {
-            cooldownHasStarted = true;
-            seconds = timeBeforeHospitalCooldown;
-        }
-        if (cooldownHasStarted)
-        {
-            seconds -= 1 * Time.deltaTime;
-            DisplayTime(seconds);
-            if (seconds <= 0)
-            {
-                cooldownHasStarted = false;
-                cooldown = 0;
-            }
-        }
+        //if (cooldown >= amountTillCooldown && !cooldownHasStarted)
+        //{
+        //    cooldownHasStarted = true;
+        //    seconds = timeBeforeHospitalCooldown;
+        //}
+        //if (cooldownHasStarted)
+        //{
+        //    seconds -= 1 * Time.deltaTime;
+        //    DisplayTime(seconds);
+        //    if (seconds <= 0)
+        //    {
+        //        cooldownHasStarted = false;
+        //        cooldown = 0;
+        //    }
+        //}
 
     }
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Enemy") && cooldown >= amountTillCooldown && !cooldownHasStarted)
+        if (other.CompareTag("Enemy") /*&& cooldown >= amountTillCooldown && !cooldownHasStarted*/)
         {
             Destroy(other.gameObject);
             Score.Instance.IncreaseCount();
