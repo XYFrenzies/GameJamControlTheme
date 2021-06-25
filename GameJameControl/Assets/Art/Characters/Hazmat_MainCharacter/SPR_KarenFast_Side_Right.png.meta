@@ -1,0 +1,898 @@
+fileFormatVersion: 2
+guid: 01abace2d6a6f2849a10367f0d5b52a3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3840503241266489383
+    second: SPR_KarenFast_Side_Right_0
+  - first:
+      213: -4458936020081147120
+    second: SPR_KarenFast_Side_Right_1
+  - first:
+      213: -1447762829674876968
+    second: SPR_KarenFast_Side_Right_2
+  - first:
+      213: 1460234668473271505
+    second: SPR_KarenFast_Side_Right_3
+  - first:
+      213: -6907236879651217332
+    second: SPR_KarenFast_Side_Right_4
+  - first:
+      213: 1761630980439202564
+    second: SPR_KarenFast_Side_Right_5
+  - first:
+      213: 11080973873521694
+    second: SPR_KarenFast_Side_Right_6
+  - first:
+      213: 1255385207028055731
+    second: SPR_KarenFast_Side_Right_7
+  - first:
+      213: -6930364930161438822
+    second: SPR_KarenFast_Side_Right_8
+  - first:
+      213: -3202314753529265764
+    second: SPR_KarenFast_Side_Right_9
+  - first:
+      213: 7991173178084098811
+    second: SPR_KarenFast_Side_Right_10
+  - first:
+      213: 5178355785135404600
+    second: SPR_KarenFast_Side_Right_11
+  - first:
+      213: 4094630253980068171
+    second: SPR_KarenFast_Side_Right_12
+  - first:
+      213: 6932215743116797659
+    second: SPR_KarenFast_Side_Right_13
+  - first:
+      213: -3232271568030640174
+    second: SPR_KarenFast_Side_Right_14
+  - first:
+      213: -8071115779944254975
+    second: SPR_KarenFast_Side_Right_15
+  - first:
+      213: -4189663108722981134
+    second: SPR_KarenFast_Side_Right_16
+  - first:
+      213: -3424286336146526633
+    second: SPR_KarenFast_Side_Right_17
+  - first:
+      213: -4542971140072614598
+    second: SPR_KarenFast_Side_Right_18
+  - first:
+      213: 5482672662493304364
+    second: SPR_KarenFast_Side_Right_19
+  - first:
+      213: -5736228890374977861
+    second: SPR_KarenFast_Side_Right_20
+  - first:
+      213: 8384713026395503378
+    second: SPR_KarenFast_Side_Right_21
+  - first:
+      213: -7943589851287281838
+    second: SPR_KarenFast_Side_Right_22
+  - first:
+      213: -382206465020404548
+    second: SPR_KarenFast_Side_Right_23
+  - first:
+      213: -858034426618441838
+    second: SPR_KarenFast_Side_Right_24
+  - first:
+      213: 3701483524951656720
+    second: SPR_KarenFast_Side_Right_25
+  - first:
+      213: -1344158287551475065
+    second: SPR_KarenFast_Side_Right_26
+  - first:
+      213: 9059398528601385180
+    second: SPR_KarenFast_Side_Right_27
+  - first:
+      213: -1906726190930779670
+    second: SPR_KarenFast_Side_Right_28
+  - first:
+      213: 5315552380552667145
+    second: SPR_KarenFast_Side_Right_29
+  - first:
+      213: -6271556003323106497
+    second: SPR_KarenFast_Side_Right_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1354
+        width: 170
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7139166aac3bac0800000000000000
+      internalID: -3840503241266489383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_1
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1351
+        width: 167
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0138ede605dae12c0800000000000000
+      internalID: -4458936020081147120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_2
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1347
+        width: 160
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfe632806388ebe0800000000000000
+      internalID: -1447762829674876968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_3
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1342
+        width: 149
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d44f0fb1bbc34410800000000000000
+      internalID: 1460234668473271505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_4
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1338
+        width: 136
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4069e077a09420a0800000000000000
+      internalID: -6907236879651217332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_5
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 1343
+        width: 151
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40bd66e0b02927810800000000000000
+      internalID: 1761630980439202564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_6
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1079
+        width: 130
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e142f77461e572000800000000000000
+      internalID: 11080973873521694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_7
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1079
+        width: 128
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3beff29c1360c6110800000000000000
+      internalID: 1255385207028055731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_8
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1081
+        width: 128
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f07ed80d562df90800000000000000
+      internalID: -6930364930161438822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_9
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 1083
+        width: 134
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9145e0c2b71f83d0800000000000000
+      internalID: -3202314753529265764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_10
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 1086
+        width: 143
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2055a9aa956ee60800000000000000
+      internalID: 7991173178084098811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_11
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 1087
+        width: 156
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836b59586273dd740800000000000000
+      internalID: 5178355785135404600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 831
+        width: 151
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49ac0f858c03d830800000000000000
+      internalID: 4094630253980068171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_13
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 834
+        width: 157
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6e8da6d7d243060800000000000000
+      internalID: 6932215743116797659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_14
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 837
+        width: 163
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d750f9522aa423d0800000000000000
+      internalID: -3232271568030640174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_15
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 839
+        width: 167
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1027f53f5f2adff80800000000000000
+      internalID: -8071115779944254975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_16
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 841
+        width: 168
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f60204b9935bd5c0800000000000000
+      internalID: -4189663108722981134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_17
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 831
+        width: 161
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e23cc48bd7a70d0800000000000000
+      internalID: -3424286336146526633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_18
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 583
+        width: 170
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35de1b51df14f0c0800000000000000
+      internalID: -4542971140072614598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_19
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 582
+        width: 168
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2698a3fcbd561c40800000000000000
+      internalID: 5482672662493304364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_20
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 578
+        width: 163
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6cdde4732d460b0800000000000000
+      internalID: -5736228890374977861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_21
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 573
+        width: 154
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bf4e9c21c7c5470800000000000000
+      internalID: 8384713026395503378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_22
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 570
+        width: 141
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f9f900e13b2c190800000000000000
+      internalID: -7943589851287281838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_23
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 576
+        width: 165
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbcd99dbe3122baf0800000000000000
+      internalID: -382206465020404548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_24
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 310
+        width: 133
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f0a5c2c36a714f0800000000000000
+      internalID: -858034426618441838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_25
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 310
+        width: 133
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01944b697af4e5330800000000000000
+      internalID: 3701483524951656720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_26
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 310
+        width: 132
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782d89cb827985de0800000000000000
+      internalID: -1344158287551475065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_27
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 310
+        width: 136
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd86bf786f279bd70800000000000000
+      internalID: 9059398528601385180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_28
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 310
+        width: 144
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae123a1b1a2f985e0800000000000000
+      internalID: -1906726190930779670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_29
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 321
+        width: 167
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900e2d32ab2a4c940800000000000000
+      internalID: 5315552380552667145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_KarenFast_Side_Right_30
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 64
+        width: 168
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b25f80b05f6f8a0800000000000000
+      internalID: -6271556003323106497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9ad1e71a5a09b8c4fbdbc21ef3e76f2b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
