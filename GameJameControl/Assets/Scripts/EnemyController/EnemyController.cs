@@ -63,11 +63,11 @@ public class EnemyController : Singleton<EnemyController>
             isHitTower = true;
             gameObject.GetComponent<Rigidbody>().isKinematic = true;
         }
-        if (collision.collider.CompareTag("Player"))
+        if (collision.collider.CompareTag("Player") && dt > timeBetweenHits)
         {
             isHitPlayer = true;
             collision.gameObject.GetComponent<PlayerController>().TakeDamage(playerDamage);
-
+            dt = 0;
         }
     }
     //Leaving the collision area of the tower or player

@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 /// </summary>
 public class TowerController : Singleton<TowerController>
 {
-    public int health = 3;
+    public float health = 3.0f;
     private void Update()
     {
         if (health <= 0)

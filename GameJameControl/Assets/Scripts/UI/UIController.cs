@@ -16,7 +16,7 @@ public class UIController : MonoBehaviour
             m_playerHealth.minValue = 0;
             m_towerHealth.minValue = 0;
             UpdateHealth();
-            m_playerHealth.gameObject.SetActive(false);
+            //m_playerHealth.gameObject.SetActive(false);
         }
     }
     // Update is called once per frame
