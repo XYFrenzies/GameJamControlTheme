@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 7447772603801756838}
   - component: {fileID: 7447772603801756832}
   - component: {fileID: 7447772603801756833}
-  - component: {fileID: 1618397586}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -76,18 +75,3 @@ MonoBehaviour:
   scoreAmount: 1
   m_scoreText: {fileID: 0}
   textBeforeCountNumber: 'Score: '
---- !u!114 &1618397586
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7447772603801756837}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf831f86c2bee30459d6f16719b9f285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  time: 
-  score: 0
-  isTowerDead: 0

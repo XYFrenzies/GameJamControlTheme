@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b82209b22a75f4c8eff85db708faa2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objToSpawn: {fileID: 0}
+  objToSpawn: {fileID: 7336392309696221882, guid: 72f2ac857c159eb40bb494a0ddc0796f, type: 3}
   repeatRateMin: 1
   repeatRateMax: 5
   startTime: 1
