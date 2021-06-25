@@ -1,0 +1,898 @@
+fileFormatVersion: 2
+guid: 439f2c2e70169974e8c5ba230a818b09
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8721353386544949399
+    second: WizardMan_Run_Left_0
+  - first:
+      213: -2938664946236068179
+    second: WizardMan_Run_Left_1
+  - first:
+      213: -8485071958623323074
+    second: WizardMan_Run_Left_2
+  - first:
+      213: -2270016537155271684
+    second: WizardMan_Run_Left_3
+  - first:
+      213: 6572975493261814408
+    second: WizardMan_Run_Left_4
+  - first:
+      213: -2776504607750076066
+    second: WizardMan_Run_Left_5
+  - first:
+      213: -2707821083441039580
+    second: WizardMan_Run_Left_6
+  - first:
+      213: -7804000498082514364
+    second: WizardMan_Run_Left_7
+  - first:
+      213: -6135645726248775155
+    second: WizardMan_Run_Left_8
+  - first:
+      213: 1437703841491109644
+    second: WizardMan_Run_Left_9
+  - first:
+      213: -6153835898370402089
+    second: WizardMan_Run_Left_10
+  - first:
+      213: -4820395599350049852
+    second: WizardMan_Run_Left_11
+  - first:
+      213: -5408811376055650145
+    second: WizardMan_Run_Left_12
+  - first:
+      213: 4727463866463736450
+    second: WizardMan_Run_Left_13
+  - first:
+      213: -2529718059338968195
+    second: WizardMan_Run_Left_14
+  - first:
+      213: -374549869499749871
+    second: WizardMan_Run_Left_15
+  - first:
+      213: 4440448121910903581
+    second: WizardMan_Run_Left_16
+  - first:
+      213: -4908039389185129766
+    second: WizardMan_Run_Left_17
+  - first:
+      213: -1661860270018349893
+    second: WizardMan_Run_Left_18
+  - first:
+      213: 925929008524901268
+    second: WizardMan_Run_Left_19
+  - first:
+      213: -7874654021367453796
+    second: WizardMan_Run_Left_20
+  - first:
+      213: -6716307234308587244
+    second: WizardMan_Run_Left_21
+  - first:
+      213: -7883854510723748103
+    second: WizardMan_Run_Left_22
+  - first:
+      213: -4299405196586892997
+    second: WizardMan_Run_Left_23
+  - first:
+      213: 3435235823149251417
+    second: WizardMan_Run_Left_24
+  - first:
+      213: 2923077840618062657
+    second: WizardMan_Run_Left_25
+  - first:
+      213: -3880905238825308868
+    second: WizardMan_Run_Left_26
+  - first:
+      213: -5691850346832624660
+    second: WizardMan_Run_Left_27
+  - first:
+      213: -2100629225376012897
+    second: WizardMan_Run_Left_28
+  - first:
+      213: 739780501348270643
+    second: WizardMan_Run_Left_29
+  - first:
+      213: 8010360667437313469
+    second: WizardMan_Run_Left_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1352
+        width: 163
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967965a7d4787f680800000000000000
+      internalID: -8721353386544949399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_1
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1351
+        width: 163
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daee4b51dc3c737d0800000000000000
+      internalID: -2938664946236068179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_2
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1347
+        width: 159
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3cf0ac6208fe3a80800000000000000
+      internalID: -8485071958623323074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_3
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1342
+        width: 151
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3099c8cf74f70e0800000000000000
+      internalID: -2270016537155271684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_4
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 1336
+        width: 139
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ae731d266e73b50800000000000000
+      internalID: 6572975493261814408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_5
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 1330
+        width: 128
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5942d115cfd779d0800000000000000
+      internalID: -2776504607750076066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_6
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1072
+        width: 128
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427fe2e3213eb6ad0800000000000000
+      internalID: -2707821083441039580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_7
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1069
+        width: 121
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44af1d4f4ee92b390800000000000000
+      internalID: -7804000498082514364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_8
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1067
+        width: 116
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d025c4358bec9daa0800000000000000
+      internalID: -6135645726248775155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_9
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1068
+        width: 110
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07ca4cc600c3f310800000000000000
+      internalID: 1437703841491109644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_10
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1071
+        width: 103
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8d597dade299aa0800000000000000
+      internalID: -6153835898370402089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_11
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 1078
+        width: 139
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c352efedb38a1db0800000000000000
+      internalID: -4820395599350049852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_12
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 817
+        width: 108
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f987c19e5ba00f4b0800000000000000
+      internalID: -5408811376055650145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_13
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 823
+        width: 131
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282d011e6535b9140800000000000000
+      internalID: 4727463866463736450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_14
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 829
+        width: 147
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73d53bf3d2a4ecd0800000000000000
+      internalID: -2529718059338968195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_15
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 834
+        width: 156
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a6ccdc0e45dcaf0800000000000000
+      internalID: -374549869499749871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_16
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 834
+        width: 162
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13cc065a04af9d30800000000000000
+      internalID: 4440448121910903581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_17
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 826
+        width: 151
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2ceffed2423ebb0800000000000000
+      internalID: -4908039389185129766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_18
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 577
+        width: 163
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4b83ba3e2efe8e0800000000000000
+      internalID: -1661860270018349893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_19
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 576
+        width: 162
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b3b58078f89dc00800000000000000
+      internalID: 925929008524901268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_20
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 576
+        width: 156
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97aa47a3eb97b290800000000000000
+      internalID: -7874654021367453796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_21
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 571
+        width: 147
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41186a8a722eac2a0800000000000000
+      internalID: -6716307234308587244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_22
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 565
+        width: 131
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe237bc71ce69290800000000000000
+      internalID: -7883854510723748103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_23
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 573
+        width: 159
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3148ffb0c17554c0800000000000000
+      internalID: -4299405196586892997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_24
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 301
+        width: 107
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bf18ec7c86caf20800000000000000
+      internalID: 3435235823149251417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_25
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 297
+        width: 103
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1430bd41fcbd09820800000000000000
+      internalID: 2923077840618062657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_26
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 294
+        width: 110
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d6dd84f31442ac0800000000000000
+      internalID: -3880905238825308868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_27
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 293
+        width: 116
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce38b5a244c7201b0800000000000000
+      internalID: -5691850346832624660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_28
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 295
+        width: 121
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95a8a069d019d2e0800000000000000
+      internalID: -2100629225376012897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_29
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 319
+        width: 163
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332cf9a427a344a00800000000000000
+      internalID: 739780501348270643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMan_Run_Left_30
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 62
+        width: 163
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbdac5916948a2f60800000000000000
+      internalID: 8010360667437313469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b8435ca75509b4545bddb5e971129c70
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
