@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Animations;
 using UnityEngine.InputSystem.Interactions;
 using System;
 public class PlayerController : Singleton<PlayerController>
@@ -83,18 +84,31 @@ public class PlayerController : Singleton<PlayerController>
         rb.AddForce(force);
 
 
-        Quaternion q = new Quaternion();
-        q.eulerAngles = new Vector3(0, Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg, 0);
-        transform.rotation = q;
+        //Quaternion q = new Quaternion();
+        //q.eulerAngles = new Vector3(0, Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg, 0);
+        //transform.rotation = q;
 
-        if (direction.x == -1)
-            Debug.Log("Left");
-        if (direction.x == 1)
-            Debug.Log("Right");
-        if (direction.y == 1)
-            Debug.Log("Up");
-        if (direction.y == -1)
-            Debug.Log("Down");
+        animationSet(direction);
+
+        //if (direction.x == -1)
+        //    Debug.Log("Left");
+        //if (direction.x == 1)
+        //    Debug.Log("Right"); animationSet(1, 0);
+        //if (direction.y == 1)
+        //    Debug.Log("Up");
+        //if (direction.y == -1)
+        //    Debug.Log("Down");
+    }
+
+    public void animationSet(float x, float y)
+    {
+        anim.SetFloat("Xpos", x); anim.SetFloat("Ypos", y);
+    }
+    public void animationSet(Vector2 direction)
+    {
+        Debug.Log("Pos X:" + direction.x + " | Pos Y:" + direction.y);
+        anim.SetFloat("Xpos", direction.x); anim.SetFloat("Ypos", direction.y);
+        
     }
 
     private void DodgeRoll()
