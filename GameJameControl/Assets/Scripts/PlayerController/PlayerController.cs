@@ -21,6 +21,7 @@ public class PlayerController : Singleton<PlayerController>
     public float rollAmount = 2000f;
 
     public Animator anim;
+    public GameObject gameOverScreen;
 
     public float health = 3f;
     public float invincibleAmount;
@@ -44,6 +45,7 @@ public class PlayerController : Singleton<PlayerController>
 
     private void Start()
     {
+        gameOverScreen.SetActive(false);
         rb = GetComponent<Rigidbody>();
         canDodge = true;
     }
@@ -134,7 +136,7 @@ public class PlayerController : Singleton<PlayerController>
         if (health <= 0)
         {
             GlobalValues.Instance.isTowerDead = false;
-            SceneManager.LoadScene("GameOver");
+            gameOverScreen.SetActive(true);
         }
     }
 
