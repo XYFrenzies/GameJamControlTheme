@@ -42,8 +42,6 @@ public class EnemyController : Singleton<EnemyController>
             gameObject.transform.position = Vector3.MoveTowards(gameObject.transform.position, m_player.transform.position, m_speed * Time.fixedDeltaTime);
             Vector3 pdir = (transform.position - m_player.transform.position).normalized;
             AnimationSet(pdir);
-            Debug.Log(pdir);
-            Debug.Log("sign flipped: " + -pdir);
 
         }
         //If the tower is not within the range of the enemies.
