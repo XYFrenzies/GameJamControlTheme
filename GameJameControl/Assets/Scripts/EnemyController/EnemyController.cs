@@ -13,7 +13,8 @@ public class EnemyController : Singleton<EnemyController>
     public float playerDamage = 0.1f;
     public float towerDamage = 0.1f;
     private GameObject m_tower;
-    [HideInInspector]public float dt = 0.0f;
+    public Animator anim;
+    [HideInInspector] public float dt = 0.0f;
     [HideInInspector] public bool isHitPlayer = false;
     [HideInInspector] public bool isHitTower = false;
     [HideInInspector] public bool isHitSafeZone = false;
@@ -25,20 +26,31 @@ public class EnemyController : Singleton<EnemyController>
         m_tower = GameObject.FindGameObjectWithTag("Tower");
         if (m_tower == null)
             m_tower = FindObjectOfType<TowerController>().gameObject;
+
     }
-    void Update() 
+    void Update()
     {
         dt += Time.deltaTime;
+
     }
     // Update is called once per frame
     void FixedUpdate()
     {
         //If the enemies are in the radius of the player but they are not colliding with the player.
-        if (isInRadius  && !isHitPlayer && !isHitSafeZone)
+        if (isInRadius && !isHitPlayer && !isHitSafeZone)
+        {
             gameObject.transform.position = Vector3.MoveTowards(gameObject.transform.position, m_player.transform.position, m_speed * Time.fixedDeltaTime);
+            Vector3 pdir = (transform.position - m_player.transform.position).normalized;
+            AnimationSet(pdir);
+        }
         //If the tower is not within the range of the enemies.
         else if (!isHitTower && !isHitSafeZone)
+        {
             gameObject.transform.position = Vector3.MoveTowards(gameObject.transform.position, m_tower.transform.position, m_speed * Time.fixedDeltaTime);
+            Vector3 tdir = (transform.position - m_tower.transform.position).normalized;
+            AnimationSet(tdir);
+
+        }
     }
     //Colliding with tower or player
     private void OnCollisionEnter(Collision collision)
@@ -52,7 +64,7 @@ public class EnemyController : Singleton<EnemyController>
         {
             isHitPlayer = true;
             collision.gameObject.GetComponent<PlayerController>().TakeDamage(playerDamage);
-            Debug.Log(collision.gameObject.GetComponent<PlayerController>().health);
+
         }
     }
     //Leaving the collision area of the tower or player
@@ -67,5 +79,13 @@ public class EnemyController : Singleton<EnemyController>
         {
             isHitPlayer = false;
         }
+    }
+
+
+    public void AnimationSet(Vector3 direction)
+    {
+        // Debug.Log("Pos X:" + direction.x + " | Pos Y:" + direction.z);
+        anim.SetFloat("Xpos", direction.x); anim.SetFloat("Ypos", direction.z);
+
     }
 }

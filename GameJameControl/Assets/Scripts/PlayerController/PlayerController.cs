@@ -90,14 +90,6 @@ public class PlayerController : Singleton<PlayerController>
 
         animationSet(direction);
 
-        //if (direction.x == -1)
-        //    Debug.Log("Left");
-        //if (direction.x == 1)
-        //    Debug.Log("Right"); animationSet(1, 0);
-        //if (direction.y == 1)
-        //    Debug.Log("Up");
-        //if (direction.y == -1)
-        //    Debug.Log("Down");
     }
 
     public void animationSet(float x, float y)
@@ -106,7 +98,7 @@ public class PlayerController : Singleton<PlayerController>
     }
     public void animationSet(Vector2 direction)
     {
-        Debug.Log("Pos X:" + direction.x + " | Pos Y:" + direction.y);
+       // Debug.Log("Pos X:" + direction.x + " | Pos Y:" + direction.y);
         anim.SetFloat("Xpos", direction.x); anim.SetFloat("Ypos", direction.y);
         
     }
@@ -115,7 +107,7 @@ public class PlayerController : Singleton<PlayerController>
     {
         if (canDodge)
         {
-            Debug.Log("Dodge");
+
             actCooldown = dodgeCooldown;
             Invincible(invincibleDuration);
             rb.AddForce(transform.forward * rollAmount, ForceMode.Force);
@@ -133,13 +125,12 @@ public class PlayerController : Singleton<PlayerController>
             }
             if (health <= 0)
                 health = 0f;
-            Debug.Log("Take Damage");
         }
     }
 
     public void Invincible(float duration)
     {
         invincibleAmount = invincibleDuration;
-        Debug.Log("Invincible");
+
     }
 }
