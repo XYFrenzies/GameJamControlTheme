@@ -23,7 +23,7 @@
                 },
                 {
                     "name": "PauseGame",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "5c6de86c-429b-4b87-97db-b5c9bfdd824e",
                     "expectedControlType": "Button",
                     "processors": "",
@@ -101,7 +101,7 @@
                     "name": "",
                     "id": "e6c53620-e145-415e-9074-add12e4a9fc6",
                     "path": "<Keyboard>/escape",
-                    "interactions": "",
+                    "interactions": "Press",
                     "processors": "",
                     "groups": "",
                     "action": "PauseGame",
